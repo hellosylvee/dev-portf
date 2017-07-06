@@ -1,0 +1,12 @@
+.button.contact-btn {
+  width: 130px;
+  margin: 0px 4px;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+a:hover {
+  color: #222222;
+}
