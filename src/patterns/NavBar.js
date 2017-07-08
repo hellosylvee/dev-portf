@@ -19,15 +19,15 @@ export default class NavBar extends Component {
           onClick={this.handleItemClick}
         > Sylvee Lee
         </Menu.Item>
-        <Menu.Item as={Link} to='/projects' name='projects'
-          active={activeItem === 'projects'}
-          onClick={this.handleItemClick}
-        > Projects
+        <Menu.Item as={Link} to='/process' name='process'
+        active={activeItem === 'process'}
+        onClick={this.handleItemClick}
+        > Process
         </Menu.Item>
-        <Menu.Item as={Link} to='/design' name='design'
-          active={activeItem === 'design'}
-          onClick={this.handleItemClick}
-        > Design
+        <Menu.Item as={Link} to='/Photography' name='Photography'
+        active={activeItem === 'Photography'}
+        onClick={this.handleItemClick}
+        > Misc.
         </Menu.Item>
         <Menu.Item as={Link} to='/about' name='about'
           active={activeItem === 'about'}
