@@ -24,8 +24,8 @@ export default class NavBar extends Component {
         onClick={this.handleItemClick}
         > Process
         </Menu.Item>
-        <Menu.Item as={Link} to='/Photography' name='Photography'
-        active={activeItem === 'Photography'}
+        <Menu.Item as={Link} to='/misc' name='misc'
+        active={activeItem === 'misc'}
         onClick={this.handleItemClick}
         > Misc.
         </Menu.Item>

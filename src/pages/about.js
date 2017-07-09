@@ -8,7 +8,7 @@ class about extends Component {
       <Grid divided='vertically'>
         <Grid.Row centered columns={2}>
           <Header as='h2'>Meet Sylvee</Header>
-          <Grid.Column>
+          <Grid.Column className='animated fadeIn'>
             <Image centered shape='circular' src='/assets/images/profile.jpg' size='small' />
             <Header as='h3'>Designer & Developer</Header>
             <div>
