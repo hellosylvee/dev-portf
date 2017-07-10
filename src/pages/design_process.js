@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import { Grid, Image, Header} from 'semantic-ui-react'
 
-class process extends Component {
+class design_process extends Component {
   render() {
     return (
       <Grid divided='vertically'>
@@ -39,4 +39,4 @@ class process extends Component {
   }
 }
 
-export default process;
+export default design_process;
