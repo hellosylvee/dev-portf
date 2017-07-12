@@ -1,8 +1,11 @@
 import React from 'react';
+import { Header } from 'semantic-ui-react'
 
 const IntroCard = () => {
   return(
-    <div>Hi, I'm Sylvee Lee.</div>
+    <div>
+      <Header>Hi, I'm Sylvee Lee.</Header>
+    </div>
   )
 }
 

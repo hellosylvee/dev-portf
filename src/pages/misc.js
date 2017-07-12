@@ -7,7 +7,7 @@ class process extends Component {
     return (
       <Grid>
         <Grid.Row centered columns={3}>
-          <Header as='h2'>Meet Sylvee</Header>
+          <Header as='h2'>Photos</Header>
           <Grid.Column className='animated fadeIn'>
             <Image centered bordered src='assets/images/dino.jpg' name='bird' size='medium' />
           </Grid.Column>
