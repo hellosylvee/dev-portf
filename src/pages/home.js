@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Header, Image } from 'semantic-ui-react'
+import { Grid, Header, List, Icon, Image } from 'semantic-ui-react'
 
 import Emem from '../projects/Emem'
 import IntroCard from '../components/intro-card'
@@ -18,6 +18,47 @@ class home extends Component {
         <Grid.Row centered columns={3}>
           <Grid.Column>
             <Image centered bordered src='assets/images/dino.jpg' name='bird' size='medium' />
+            <List horizontal>
+              <List.Item>
+                <List.Content verticalAlign='middle'>
+                  <a target='_blank' rel='noopener noreferrer'
+                    href='https://www.github.com/hellosylvee'>
+                    <Icon link name='github' color='blue' size='big'/>Github
+                  </a>
+                </List.Content>
+              </List.Item>
+            </List>
+          </Grid.Column>
+          <Grid.Column>
+            <Image centered bordered src='assets/images/dino.jpg' name='bird' size='medium' />
+            <List horizontal>
+              <List.Item>
+                <List.Content verticalAlign='middle'>
+                  <a target='_blank' rel='noopener noreferrer'
+                    href='https://www.github.com/hellosylvee'>
+                    <Icon link name='github' color='blue' size='big'/>Github
+                  </a>
+                </List.Content>
+              </List.Item>
+            </List>
+          </Grid.Column>
+          <Grid.Column>
+            <Image centered bordered src='assets/images/dino.jpg' name='bird' size='medium' />
+            <List horizontal>
+              <List.Item>
+                <List.Content verticalAlign='middle'>
+                  <a target='_blank' rel='noopener noreferrer'
+                    href='https://www.github.com/hellosylvee'>
+                    <Icon link name='github' color='blue' size='big'/>Github
+                  </a>
+                </List.Content>
+              </List.Item>
+            </List>
+          </Grid.Column>
+        </Grid.Row>
+        <Grid.Row centered columns={3}>
+          <Grid.Column>
+            <Image centered bordered src='assets/images/dino.jpg' name='bird' size='medium' />
           </Grid.Column>
           <Grid.Column>
             <Image centered bordered src='assets/images/dino.jpg' name='bird' size='medium' />
@@ -28,24 +69,13 @@ class home extends Component {
         </Grid.Row>
         <Grid.Row centered columns={3}>
           <Grid.Column>
-            express scripts
+            <Image centered bordered src='assets/images/dino.jpg' name='bird' size='medium' />
           </Grid.Column>
           <Grid.Column>
-            allstate
+            <Image centered bordered src='assets/images/dino.jpg' name='bird' size='medium' />
           </Grid.Column>
           <Grid.Column>
-            pivot pong
-          </Grid.Column>
-        </Grid.Row>
-        <Grid.Row centered columns={3}>
-          <Grid.Column>
-            nasdaq IR
-          </Grid.Column>
-          <Grid.Column>
-            nasdaq mobile
-          </Grid.Column>
-          <Grid.Column>
-            nasdaq webhost
+            <Image centered bordered src='assets/images/dino.jpg' name='bird' size='medium' />
           </Grid.Column>
         </Grid.Row>
         {Emem}

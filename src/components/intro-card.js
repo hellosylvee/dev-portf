@@ -3,9 +3,7 @@ import { Header } from 'semantic-ui-react'
 
 const IntroCard = () => {
   return(
-    <div>
-      <Header>Hi, I'm Sylvee Lee.</Header>
-    </div>
+    <Header as='h1'>Hi, I'm Sylvee Lee.</Header>
   )
 }
 

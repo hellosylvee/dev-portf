@@ -1,0 +1,27 @@
+.centered.two.column.row, .centered.three.column.row > .ui.header {
+  margin-top: 75px;
+}
+
+.profile-img {
+  border: solid #1678c2 2px;
+  margin-top: 10px;
+}
+
+.social-btns {
+  padding: 10px 0px 25px 0px;
+}
+
+.contact-btns {
+  margin-top: 50px;
+}
+
+.body-text {
+  font-size: 1.2em;
+  line-height: 1.3em;
+  text-align: justify;
+}
+
+.span-text {
+  font-size: 1.2em;
+  margin: 10px 0px;
+}

@@ -7,7 +7,7 @@ class design_process extends Component {
     return (
       <Grid divided='vertically'>
         <Grid.Row centered columns={2}>
-          <Header as='h2'>Process</Header>
+          <Header as='h1'>Process</Header>
           <Grid.Column>
           <div className='animated fadeIn'>
             <Image centered src='/assets/svg/search.svg' name='explore' size='small' />
