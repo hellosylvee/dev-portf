@@ -13,19 +13,19 @@ class about extends Component {
             <Header as='h3'>Designer & Developer</Header>
             <div>
               <a className='social-btn-width'
-                target='_blank' href='https://www.twitter.com/hellosylvee'>
+                target='_blank' rel='noopener noreferrer' href='https://www.twitter.com/hellosylvee'>
                 <Icon link name='twitter' color='blue' size='big'/>
               </a>
               <a className='social-btn-width'
-                target='_blank' href='https://www.instagram.com/hellosylvee'>
+                target='_blank' rel='noopener noreferrer' href='https://www.instagram.com/hellosylvee'>
                 <Icon link name='instagram' color='blue' size='big'/>
               </a>
               <a className='social-btn-width'
-                target='_blank' href='https://www.dribbble.com/hellosylvee'>
+                target='_blank' rel='noopener noreferrer' href='https://www.dribbble.com/hellosylvee'>
                 <Icon link name='dribble' color='blue' size='big'/>
               </a>
               <a className='social-btn-width'
-                target='_blank' href='https://www.medium.com/@hellosylvee'>
+                target='_blank' rel='noopener noreferrer' href='https://www.medium.com/@hellosylvee'>
                 <Icon link name='medium' color='blue' size='big'/>
               </a>
             </div>
@@ -34,12 +34,12 @@ class about extends Component {
             </div>
             <div>
               <Button className='contact-btn' color='blue'>
-                <a target='_blank' href='https://www.linkedin.com/in/sylviaclee/'>
+                <a target='_blank' rel='noopener noreferrer' href='https://www.linkedin.com/in/sylviaclee/'>
                   <Icon name='linkedin' /> LinkedIn
                 </a>
               </Button>
               <Button className='contact-btn' color='blue'>
-                <a target='_blank' href='https://www.twitter.com/hellosylvee'>
+                <a target='_blank' rel='noopener noreferrer' href='https://www.twitter.com/hellosylvee'>
                   <Icon name='google' /> Email
                 </a>
               </Button>
