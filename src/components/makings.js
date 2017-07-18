@@ -9,13 +9,13 @@ class Makings extends Component {
         <Header className='row-section-text'>I love making stuff.</Header>
         <Grid.Column className='column-margin'>
           <Card>
-            <Image src='assets/images/dino.jpg' name='bird' size='medium' />
+            <Image src='assets/images/cards-foster.png' name='bird' size='medium' />
             <Card.Content>
-              <Card.Header>Fostership</Card.Header>
-              <Card.Description>Daniel is a comedian living in Nashville.</Card.Description>
+              <Card.Header>Fostership Match</Card.Header>
+              <Card.Description>A mobile app that matches foster parents to kids and teenagers in all 5 boroughs of New York City.</Card.Description>
             </Card.Content>
             <Card.Content extra>
-              <a>
+              <a target='_blank' rel='noopener noreferrer' href='https://hellosylvee-designs.herokuapp.com/projects/fostership.html'>
                 View More <Icon name='arrow right' />
               </a>
             </Card.Content>
@@ -23,13 +23,13 @@ class Makings extends Component {
         </Grid.Column>
         <Grid.Column className='column-margin'>
           <Card>
-            <Image src='assets/images/dino.jpg' name='bird' size='medium' />
+            <Image src='assets/images/cards-foster.png' name='bird' size='medium' />
             <Card.Content>
               <Card.Header>Fostership Portal</Card.Header>
-              <Card.Description>Daniel is a comedian living in Nashville.</Card.Description>
+              <Card.Description>Fostership Portal is a standalone application that provides information access for social workers on the go.</Card.Description>
             </Card.Content>
             <Card.Content extra>
-              <a>
+              <a target='_blank' rel='noopener noreferrer' href='https://hellosylvee-designs.herokuapp.com/projects/fostership.html'>
                 View More <Icon name='arrow right' />
               </a>
             </Card.Content>
@@ -37,13 +37,13 @@ class Makings extends Component {
         </Grid.Column>
         <Grid.Column className='column-margin'>
           <Card>
-            <Image src='assets/images/dino.jpg' name='bird' size='medium' />
+            <Image src='assets/images/cards-pivotpong.png' name='bird' size='medium' />
             <Card.Content>
               <Card.Header>Pivot Pong</Card.Header>
-              <Card.Description>Daniel is a comedian living in Nashville.</Card.Description>
+              <Card.Description>Pivot Pong is a mobile application that connects players to ping pong matches in matter of seconds.</Card.Description>
             </Card.Content>
             <Card.Content extra>
-              <a>
+              <a target='_blank' rel='noopener noreferrer' href='https://hellosylvee-designs.herokuapp.com/projects/pivot.html'>
                 View More <Icon name='arrow right' />
               </a>
             </Card.Content>

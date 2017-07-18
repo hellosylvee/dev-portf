@@ -13,7 +13,7 @@ class Projects extends Component {
         </Header>
         <Grid.Column className='column-margin'>
           <Card centered>
-            <Image src='assets/images/dino.jpg' name='bird' size='medium' />
+            <Image src='assets/images/cards-punnyposts.png' name='punny post project' size='medium' />
             <Card.Content>
               <Card.Header>Punny Posts</Card.Header>
               <Card.Meta>A social website to create and appreciate word puns and gifs</Card.Meta>
@@ -23,15 +23,15 @@ class Projects extends Component {
               <a target='_blank' rel='noopener noreferrer' href='https://www.github.com/hellosylvee/punny-posts'>
                 <Icon name='github' size='large'/>Github
               </a>
-              <a className='demo-play' target='_blank' rel='noopener noreferrer' href='https://www.github.com/hellosylvee/'>
+              {/* <a className='demo-play' target='_blank' rel='noopener noreferrer' href='https://www.github.com/hellosylvee/'>
                 <Icon name='video play outline' size='large'/>Demo
-              </a>
+              </a> */}
             </Card.Content>
           </Card>
         </Grid.Column>
         <Grid.Column className='column-margin'>
           <Card centered floated='right'>
-            <Image src='assets/images/dino.jpg' name='bird' size='medium' />
+            <Image src='assets/images/cards-emem.png' name='emem meme generator project' size='medium' />
             <Card.Content>
               <Card.Header>emeM Meme</Card.Header>
               <Card.Meta>A meme generator</Card.Meta>
@@ -41,15 +41,15 @@ class Projects extends Component {
               <a target='_blank' rel='noopener noreferrer' href='https://www.github.com/hellosylvee/nomnom'>
                 <Icon name='github' size='large'/>Github
               </a>
-              <a className='demo-play' target='_blank' rel='noopener noreferrer' href='https://www.github.com/hellosylvee/'>
+              {/* <a className='demo-play' target='_blank' rel='noopener noreferrer' href='https://www.github.com/hellosylvee/'>
                 <Icon name='video play outline' size='large'/>Demo
-              </a>
+              </a> */}
             </Card.Content>
           </Card>
         </Grid.Column>
         <Grid.Column className='column-margin'>
           <Card centered floated='right'>
-            <Image src='assets/images/dino.jpg' name='bird' size='medium' />
+            <Image src='assets/images/cards-radlibz.png' name='radlibz project' size='medium' />
             <Card.Content>
               <Card.Header>RadLibz</Card.Header>
               <Card.Meta>An interactive word game</Card.Meta>
@@ -59,9 +59,9 @@ class Projects extends Component {
               <a target='_blank' rel='noopener noreferrer' href='https://www.github.com/hellosylvee/radlibz'>
                 <Icon name='github' size='large'/>Github
               </a>
-              <a className='demo-play' target='_blank' rel='noopener noreferrer' href='https://www.github.com/hellosylvee/'>
+              {/* <a className='demo-play' target='_blank' rel='noopener noreferrer' href='https://www.github.com/hellosylvee/'>
                 <Icon name='video play outline' size='large'/>Demo
-              </a>
+              </a> */}
             </Card.Content>
           </Card>
         </Grid.Column>
