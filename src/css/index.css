@@ -50,3 +50,12 @@ h2.header.process-title {
 .process-step {
   margin-top: 25px;
 }
+
+.card-desc-align {
+  text-align: left;
+  padding-top: 10px;
+}
+
+.demo-play {
+  margin-left: 50px;
+}
