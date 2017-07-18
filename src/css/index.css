@@ -16,7 +16,6 @@
 }
 
 .body-text {
-  margin-bottom: 75px;
   font-size: 1.2em;
   line-height: 1.3em;
   text-align: justify;
@@ -58,4 +57,40 @@ h2.header.process-title {
 
 .demo-play {
   margin-left: 50px;
+}
+
+.row-section {
+  height: 100%;
+  border-bottom: solid #D3D3D3 .5px;
+  /*border: solid red 2px;*/
+}
+
+.ui.header.row-section-title {
+  font-size: 3em;
+  margin-top: 50px;
+}
+
+.ui.header.row-section-text {
+  font-size: 3em;
+  margin-bottom: 50px;
+}
+
+.accent-color {
+  color: #1678c2;
+}
+
+.ui.header.intro-title {
+  font-size: 4em;
+}
+
+.column-margin {
+  padding: 25px 0px 75px 0px;
+}
+
+.ui.segment {
+  padding: 50px;
+}
+
+.intro {
+  margin: 150px 0px;
 }
