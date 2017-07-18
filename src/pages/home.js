@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid } from 'semantic-ui-react'
 
-import IntroCard from '../components/intro'
+import Intro from '../components/intro'
 import Projects from '../components/projects'
 import Makings from '../components/makings'
 import Works from '../components/works'
@@ -12,7 +12,7 @@ class home extends Component {
   render() {
     return (
       <Grid>
-          <IntroCard/>
+          <Intro/>
           <Projects/>
           <Makings/>
           <Works/>

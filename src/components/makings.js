@@ -7,7 +7,7 @@ class Makings extends Component {
       <Grid.Row className='row-section' centered columns={4}>
         <Header className='row-section-title'>I am a <span className='accent-color'>Maker</span>.</Header>
         <Header className='row-section-text'>I love making stuff.</Header>
-        <Grid.Column>
+        <Grid.Column className='column-margin'>
           <Card>
             <Image src='assets/images/dino.jpg' name='bird' size='medium' />
             <Card.Content>
@@ -21,7 +21,7 @@ class Makings extends Component {
             </Card.Content>
           </Card>
         </Grid.Column>
-        <Grid.Column>
+        <Grid.Column className='column-margin'>
           <Card>
             <Image src='assets/images/dino.jpg' name='bird' size='medium' />
             <Card.Content>
@@ -35,7 +35,7 @@ class Makings extends Component {
             </Card.Content>
           </Card>
         </Grid.Column>
-        <Grid.Column>
+        <Grid.Column className='column-margin'>
           <Card>
             <Image src='assets/images/dino.jpg' name='bird' size='medium' />
             <Card.Content>

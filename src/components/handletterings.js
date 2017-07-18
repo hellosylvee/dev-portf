@@ -6,7 +6,8 @@ class Handletterings extends Component {
     return (
       <Grid.Row className='row-section' centered columns={4}>
         <Header className='row-section-title'>I am a (newbie) <span className='accent-color'>Hand Letterer</span>.</Header>
-        <Header className='row-section-text'>I am practicing the art of handlettering.<br/>See my work on Instagram <a className='social-btn-width'
+        <Header className='row-section-text'>I'm practicing the art of handlettering.<br/>
+        <span className='grey-text'>View my work on </span><a className='social-btn-width'
             target='_blank' rel='noopener noreferrer' href='https://instagram.com/hellosylvee'>
             <Icon link name='instagram' color='blue' size='large'/>
           </a>.

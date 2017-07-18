@@ -1,3 +1,6 @@
+body {
+  background-color: #f0f0d0;
+}
 .centered.two.column.row, .centered.three.column.row > .ui.header {
   margin-top: 75px;
 }
@@ -62,6 +65,7 @@ h2.header.process-title {
 .row-section {
   height: 100%;
   border-bottom: solid #D3D3D3 .5px;
+  background-color: #FFFFFF;
   /*border: solid red 2px;*/
 }
 
@@ -93,4 +97,9 @@ h2.header.process-title {
 
 .intro {
   margin: 150px 0px;
+}
+
+.grey-text {
+  color: #000000;
+  opacity: .65;
 }
