@@ -6,6 +6,7 @@ import Projects from '../components/projects'
 import Makings from '../components/makings'
 import Works from '../components/works'
 import Posts from '../components/posts'
+import Mentoring from '../components/mentoring'
 import Handletterings from '../components/handletterings'
 
 class home extends Component {
@@ -17,6 +18,7 @@ class home extends Component {
           <Makings/>
           <Works/>
           <Posts/>
+          <Mentoring/>
           <Handletterings/>
       </Grid>
     );
