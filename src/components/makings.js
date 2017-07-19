@@ -9,7 +9,7 @@ class Makings extends Component {
         <Header className='row-section-text'>I love making stuff.</Header>
         <Grid.Column className='column-margin'>
           <Card>
-            <Image src='assets/images/cards-foster.png' name='bird' size='medium' />
+            <Image src='assets/images/cards-foster.png' name='fostership' size='medium' />
             <Card.Content>
               <Card.Header>Fostership Match</Card.Header>
               <Card.Description>A mobile app that matches foster parents to kids and teenagers in all 5 boroughs of New York City.</Card.Description>
@@ -23,14 +23,14 @@ class Makings extends Component {
         </Grid.Column>
         <Grid.Column className='column-margin'>
           <Card>
-            <Image src='assets/images/cards-foster.png' name='bird' size='medium' />
+            <Image src='assets/images/cards-kafsc.png' name='kafsc' size='medium' />
             <Card.Content>
-              <Card.Header>Fostership Portal</Card.Header>
-              <Card.Description>Fostership Portal is a standalone application that provides information access for social workers on the go.</Card.Description>
+              <Card.Header>Advocacy for KAFSC</Card.Header>
+              <Card.Description>A fund project to raise awareness on domestic violence and solicit discretionary funds from NYC council members.</Card.Description>
             </Card.Content>
             <Card.Content extra>
-              <a target='_blank' rel='noopener noreferrer' href='https://hellosylvee-designs.herokuapp.com/projects/fostership.html'>
-                View More <Icon name='arrow right' />
+              <a target='_blank' rel='noopener noreferrer' href='https://advocacyforkafsc.herokuapp.com/'>
+                Go to website <Icon name='arrow right' />
               </a>
             </Card.Content>
           </Card>

@@ -14,14 +14,14 @@ class home extends Component {
   render() {
     return (
       <Grid>
-          <Intro/>
-          <Projects/>
-          <Makings/>
-          <Works/>
-          <Posts/>
-          <Mentoring/>
-          <Speakings/>
-          <Handletterings/>
+        <Intro/>
+        <Projects/>
+        <Makings/>
+        <Works/>
+        <Posts/>
+        <Mentoring/>
+        <Speakings/>
+        <Handletterings/>
       </Grid>
     );
   }

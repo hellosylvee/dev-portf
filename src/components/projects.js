@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Card, Image, Header, Icon } from 'semantic-ui-react'
+import { Grid, Card, Image, Header, Modal, Icon } from 'semantic-ui-react'
 
 class Projects extends Component {
   render() {
@@ -23,9 +23,15 @@ class Projects extends Component {
               <a target='_blank' rel='noopener noreferrer' href='https://www.github.com/hellosylvee/punny-posts'>
                 <Icon name='github' size='large'/>Github
               </a>
-              {/* <a className='demo-play' target='_blank' rel='noopener noreferrer' href='https://www.github.com/hellosylvee/'>
-                <Icon name='video play outline' size='large'/>Demo
-              </a> */}
+              <Modal size='tiny' trigger={
+                <a className='demo-play' rel='noopener noreferrer'>
+                  <Icon name='video play outline' size='large'/>Demo
+                </a>}>
+                <Modal.Header>Punny Posts Demo</Modal.Header>
+                <Modal.Content centered image>
+                  <iframe width="860" height="400" src="https://www.youtube.com/embed/D7_z7IEhYoY" title='punny posts video' frameborder="0" allowfullscreen></iframe>
+                </Modal.Content>
+              </Modal>
             </Card.Content>
           </Card>
         </Grid.Column>
@@ -41,9 +47,15 @@ class Projects extends Component {
               <a target='_blank' rel='noopener noreferrer' href='https://www.github.com/hellosylvee/nomnom'>
                 <Icon name='github' size='large'/>Github
               </a>
-              {/* <a className='demo-play' target='_blank' rel='noopener noreferrer' href='https://www.github.com/hellosylvee/'>
-                <Icon name='video play outline' size='large'/>Demo
-              </a> */}
+              <Modal size='tiny' trigger={
+                <a className='demo-play' rel='noopener noreferrer'>
+                  <Icon name='video play outline' size='large'/>Demo
+                </a>}>
+                <Modal.Header>emeM Meme Demo</Modal.Header>
+                <Modal.Content centered image>
+                  <iframe width="860" height="400" src="https://www.youtube.com/embed/3hQdH50G62E" title='emem video' frameborder="0" allowfullscreen></iframe>
+                </Modal.Content>
+              </Modal>
             </Card.Content>
           </Card>
         </Grid.Column>
@@ -51,7 +63,7 @@ class Projects extends Component {
           <Card centered floated='right'>
             <Image src='assets/images/cards-radlibz.png' name='radlibz project' size='medium' />
             <Card.Content>
-              <Card.Header>RadLibz</Card.Header>
+              <Card.Header>Radlibz Demo</Card.Header>
               <Card.Meta>An interactive word game</Card.Meta>
               <Card.Description className='card-desc-align'>A spinoff of a popular word game, Madlibs. A user can create and save stories, and also view their word bank of frequently used words. Built with Ruby on Rails, styled with Materialize CSS framework.</Card.Description>
             </Card.Content>
@@ -59,9 +71,15 @@ class Projects extends Component {
               <a target='_blank' rel='noopener noreferrer' href='https://www.github.com/hellosylvee/radlibz'>
                 <Icon name='github' size='large'/>Github
               </a>
-              {/* <a className='demo-play' target='_blank' rel='noopener noreferrer' href='https://www.github.com/hellosylvee/'>
-                <Icon name='video play outline' size='large'/>Demo
-              </a> */}
+              <Modal size='tiny' trigger={
+                <a className='demo-play' rel='noopener noreferrer'>
+                  <Icon name='video play outline' size='large'/>Demo
+                </a>}>
+                <Modal.Header>Radlibz Demo</Modal.Header>
+                <Modal.Content centered image>
+                  <iframe width="860" height="400" src="https://www.youtube.com/embed/eb10ky_4hJA" title='radlibz video' frameborder="0" allowfullscreen></iframe>
+                </Modal.Content>
+              </Modal>
             </Card.Content>
           </Card>
         </Grid.Column>
