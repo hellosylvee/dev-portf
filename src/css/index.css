@@ -100,3 +100,17 @@ h2.header.process-title {
   color: #000000;
   opacity: .65;
 }
+
+.footer-section {
+  background-color: #1678c2;
+}
+
+h3.ui.header.footer-text {
+  margin-top: 25px;
+  font-weight: normal;
+  color: #FFFFFF;
+}
+
+p.current-year {
+  color: #FFFFFF;
+}

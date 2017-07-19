@@ -9,6 +9,7 @@ import Posts from '../components/posts'
 import Mentoring from '../components/mentoring'
 import Speakings from '../components/speakings'
 import Handletterings from '../components/handletterings'
+import Footer from '../components/footer'
 
 class home extends Component {
   render() {
@@ -22,6 +23,7 @@ class home extends Component {
         <Mentoring/>
         <Speakings/>
         <Handletterings/>
+        <Footer/>
       </Grid>
     );
   }

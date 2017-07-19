@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import { Grid, Image, Header, Segment } from 'semantic-ui-react'
+import Footer from '../components/footer'
 
 class design_process extends Component {
   render() {
@@ -43,6 +44,7 @@ class design_process extends Component {
             </Segment>
           </Grid.Column>
         </Grid.Row>
+        <Footer/>
       </Grid>
     );
   }

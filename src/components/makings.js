@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
+// import { Switch, Route, Link } from 'react-router-dom'
 import { Grid, Card, Image, Icon, Header } from 'semantic-ui-react'
+
+// import Fostership from '../pages/stuff/fostership'
 
 class Makings extends Component {
   render() {
@@ -49,6 +52,7 @@ class Makings extends Component {
             </Card.Content>
           </Card>
         </Grid.Column>
+        {/* <Route path="../pages/stuff/fostership" component={Fostership}/> */}
       </Grid.Row>
     );
   }

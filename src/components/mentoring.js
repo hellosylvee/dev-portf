@@ -6,7 +6,7 @@ class Mentoring extends Component {
     return (
       <Grid.Row className='row-section' centered columns={4}>
         <Header className='row-section-title'>I am a <span className='accent-color'>Mentor</span>.</Header>
-        <Header className='row-section-text'>Read what my students say on <span className='accent-color'>DesignLab</span>
+        <Header className='row-section-text'>Read what my students say on
           <a className='social-btn-width'
             target='_blank' rel='noopener noreferrer' href='http://trydesignlab.com/hellosylvee'>
             <Icon link name='arrow circle outline right' color='blue' size='large'/>

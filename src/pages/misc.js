@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import { Grid, Image, Header} from 'semantic-ui-react'
-
+import Footer from '../components/footer'
 class process extends Component {
   render() {
     return (
@@ -52,6 +52,7 @@ class process extends Component {
             <Image centered bordered src='assets/images/fire.jpg' name='woman breathing fire' floated='left' size='medium' />
           </Grid.Column>
         </Grid.Row>
+        <Footer/>
       </Grid>
     );
   }
