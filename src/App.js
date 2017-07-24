@@ -20,10 +20,6 @@ class App extends Component {
           <Route path='/about' component={about} />
           <Route path='/process' component={design_process} />
           <Route path='/misc' component={misc} />
-          <Route path='/fostership' component={Fostership} />
-          {/* <Route
-            path='/signup'
-            render={() => <SignupForm handleSignup={this.handleSignup.bind(this)}/>} /> */}
         </Switch>
       </div>
     );

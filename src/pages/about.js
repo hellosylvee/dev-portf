@@ -5,7 +5,7 @@ import { Grid, Image, Button, Header, Icon, Segment } from 'semantic-ui-react'
 class about extends Component {
   render() {
     return (
-      <Grid divided='vertically'>
+      <Grid stackable divided='vertically'>
         <Grid.Row centered columns={2}>
             <Grid.Column className='animated fadeIn'>
               <Segment>

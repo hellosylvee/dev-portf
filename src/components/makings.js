@@ -1,15 +1,22 @@
 import React, { Component } from 'react';
-// import { Switch, Route, Link } from 'react-router-dom'
+import { Switch, Route, Link } from 'react-router-dom'
 import { Grid, Card, Image, Icon, Header } from 'semantic-ui-react'
 
-// import Fostership from '../pages/stuff/fostership'
+import Pindex from '../passion-projects/Pindex'
 
 class Makings extends Component {
   render() {
     return (
       <Grid.Row className='row-section' centered columns={4}>
         <Header className='row-section-title'>I am a <span className='accent-color'>Maker</span>.</Header>
-        <Header className='row-section-text'>I love making stuff.</Header>
+        <Header className='row-section-text'>I love making stuff
+          <Link to="/passion-projects">
+            <Icon link name='heart outline' color='blue' size='medium'/>
+          </Link>
+          <Switch>
+            <Route path='/passion-projects' component={Pindex} />
+          </Switch>
+        </Header>
         <Grid.Column className='column-margin'>
           <Card>
             <Image src='assets/images/cards-foster.png' name='fostership' size='medium' />
