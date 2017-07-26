@@ -1,21 +1,15 @@
 import React, { Component } from 'react';
-import { Switch, Route, Link } from 'react-router-dom'
+// import { Switch, Route, Link } from 'react-router-dom'
 import { Grid, Card, Image, Icon, Header } from 'semantic-ui-react'
 
-import Index from './Index'
+// import Index from './Index'
 
 class Makings extends Component {
   render() {
     return (
       <Grid.Row className='row-section' centered columns={4}>
         <Header className='row-section-title'>I am a <span className='accent-color'>Maker</span>.</Header>
-        <Header className='row-section-text'>I love making stuff <a
-            href='/passion-projects'>
-            <Icon link name='empty heart' color='blue' size='medium'/>
-          </a>.
-          <Switch>
-            <Route path="/passion-projects" component={Index}/>
-          </Switch>
+        <Header className='row-section-text'>I love making stuff.
         </Header>
         <Grid.Column className='column-margin'>
           <Card>

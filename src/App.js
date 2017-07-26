@@ -5,6 +5,7 @@ import home from './pages/home'
 import design_process from './pages/design_process'
 import misc from './pages/misc'
 import about from './pages/about'
+import index from './pages/work'
 
 import './css/App.css';
 
@@ -16,6 +17,7 @@ class App extends Component {
         <Switch>
           <Route exact path='/' component={home} />
           <Route path='/home' component={home} />
+          <Route path='/work' component={index} />
           <Route path='/about' component={about} />
           <Route path='/process' component={design_process} />
           <Route path='/misc' component={misc} />

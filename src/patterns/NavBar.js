@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
-import { Menu } from 'semantic-ui-react'
+import { Menu, Icon } from 'semantic-ui-react'
 
 export default class NavBar extends Component {
   state = {}
@@ -12,27 +12,32 @@ export default class NavBar extends Component {
     const { activeItem } = this.state
 
     return (
-      <Menu inverted color='blue' stackable widths={4} fixed='top'>
+      <Menu inverted secondary color='blue' fixed='top'>
         <Menu.Item as={Link} to='/home'
           name='home'
           active={activeItem === 'home'}
           onClick={this.handleItemClick}
-        > Sylvee Lee
+        > <Icon name='diamond' /> Sylvee Lee
+        </Menu.Item>
+        <Menu.Item as={Link} to='/work' name='work'
+        active={activeItem === 'work'}
+        onClick={this.handleItemClick}
+        > <Icon name='desktop' /> Work
         </Menu.Item>
         <Menu.Item as={Link} to='/process' name='process'
         active={activeItem === 'process'}
         onClick={this.handleItemClick}
-        > Process
+        > <Icon name='idea' /> Process
         </Menu.Item>
         <Menu.Item as={Link} to='/misc' name='misc'
         active={activeItem === 'misc'}
         onClick={this.handleItemClick}
-        > Misc.
+        > <Icon name='camera retro' /> Misc.
         </Menu.Item>
         <Menu.Item as={Link} to='/about' name='about'
           active={activeItem === 'about'}
           onClick={this.handleItemClick}
-        > About
+        > <Icon name='user' /> About
         </Menu.Item>
       </Menu>
     )
