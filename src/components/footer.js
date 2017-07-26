@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Icon, Header } from 'semantic-ui-react'
+import { Grid, Icon } from 'semantic-ui-react'
 
 class Footer extends Component {
   render() {

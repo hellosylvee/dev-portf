@@ -5,7 +5,6 @@ import home from './pages/home'
 import design_process from './pages/design_process'
 import misc from './pages/misc'
 import about from './pages/about'
-// import Fostership from './pages/work/fostership'
 
 import './css/App.css';
 

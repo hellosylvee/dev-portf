@@ -28,7 +28,7 @@ class Projects extends Component {
                   <Icon name='video play outline' size='large'/>Demo
                 </a>}>
                 <Modal.Header>Punny Posts Demo</Modal.Header>
-                <Modal.Content centered image>
+                <Modal.Content>
                   <iframe width="860" height="400" src="https://www.youtube.com/embed/D7_z7IEhYoY" title='punny posts video' frameborder="0" allowfullscreen></iframe>
                 </Modal.Content>
               </Modal>
@@ -52,7 +52,7 @@ class Projects extends Component {
                   <Icon name='video play outline' size='large'/>Demo
                 </a>}>
                 <Modal.Header>emeM Meme Demo</Modal.Header>
-                <Modal.Content centered image>
+                <Modal.Content>
                   <iframe width="860" height="400" src="https://www.youtube.com/embed/3hQdH50G62E" title='emem video' frameborder="0" allowfullscreen></iframe>
                 </Modal.Content>
               </Modal>
@@ -76,7 +76,7 @@ class Projects extends Component {
                   <Icon name='video play outline' size='large'/>Demo
                 </a>}>
                 <Modal.Header>Radlibz Demo</Modal.Header>
-                <Modal.Content centered image>
+                <Modal.Content>
                   <iframe width="860" height="400" src="https://www.youtube.com/embed/eb10ky_4hJA" title='radlibz video' frameborder="0" allowfullscreen></iframe>
                 </Modal.Content>
               </Modal>
