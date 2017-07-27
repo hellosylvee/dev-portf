@@ -24,7 +24,7 @@ export default class Subnav extends Component {
           </Grid.Column>
           <Grid.Column>
             <a><Link to='/work/kafsc'>
-              <Image src='assets/images/dino.jpg' name='enter name' size='tiny' shape='circular' centered />
+              <Image src='assets/images/work/kafsc.png' name='enter name' size='tiny' shape='circular' bordered centered />
             </Link></a>
             <Header as='h3'>KAFSC</Header>
           </Grid.Column>

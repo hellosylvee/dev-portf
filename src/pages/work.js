@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom'
 
-// import { Grid, Header, Image } from 'semantic-ui-react'
-
 import Subnav from '../patterns/Subnav'
 import kafsc from '../work/kafsc'
 import nexion from '../work/nexion'
