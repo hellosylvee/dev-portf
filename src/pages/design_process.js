@@ -6,7 +6,7 @@ import Footer from '../components/footer'
 class design_process extends Component {
   render() {
     return (
-      <Grid stackable divided='vertically'>
+      <Grid stackable>
         <Grid.Row centered columns={2}>
           <Header as='h1' className='animated fadeIn'>Process</Header>
           <Grid.Column>
