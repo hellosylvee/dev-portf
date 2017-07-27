@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import { Grid, Image, Header, Segment } from 'semantic-ui-react'
-import Footer from '../components/footer'
+import Footer from '../patterns/Footer'
 
 class design_process extends Component {
   render() {

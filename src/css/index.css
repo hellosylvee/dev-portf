@@ -1,4 +1,4 @@
-.centered.two.column.row, .centered.three.column.row, .centered.four.column.row > .ui.header {
+.centered.two.column.row, .centered.three.column.row > .ui.header {
   margin-top: 75px;
 }
 

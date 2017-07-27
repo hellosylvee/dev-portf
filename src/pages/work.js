@@ -1,74 +1,36 @@
 import React, { Component } from 'react';
-import { Grid, Header, Image } from 'semantic-ui-react'
-// import Subnav from '../components/Subnav'
+import { Switch, Route } from 'react-router-dom'
+
+// import { Grid, Header, Image } from 'semantic-ui-react'
+
+import Subnav from '../patterns/Subnav'
+import kafsc from '../work/kafsc'
+import nexion from '../work/nexion'
+import rxemporium from '../work/rxemporium'
+import nqdesktop from '../work/nqdesktop'
+import nqmobile from '../work/nqmobile'
+import nqwebhost from '../work/nqwebhost'
+import uxdc from '../work/uxdc'
+import wanderant from '../work/wanderant'
+import moultoncampaign from '../work/moultoncampaign'
 
 class work extends Component {
   render() {
     return (
-      <Grid stackable>
-        {/* <Subnav/> */}
-        <Grid.Row centered columns={4}>
-          <Header as='h1' className='animated fadeIn'>Work</Header>
-          <Grid.Column>
-              <a href="#">
-                <Image src='assets/images/dino.jpg' name='enter name' size='small' shape='circular' centered />
-              </a>
-              <Header as='h3'>Allstate</Header>
-          </Grid.Column>
-          <Grid.Column>
-              <a href="#">
-                <Image src='assets/images/dino.jpg' name='enter name' size='small' shape='circular' centered />
-              </a>
-              <Header as='h3'>Express Scripts</Header>
-          </Grid.Column>
-          <Grid.Column>
-              <a href="#">
-                <Image src='assets/images/dino.jpg' name='enter name' size='small' shape='circular' centered />
-              </a>
-              <Header as='h3'>KAFSC</Header>
-          </Grid.Column>
-        </Grid.Row>
-        <Grid.Row centered columns={4}>
-          <Grid.Column>
-              <a href="#">
-                <Image src='assets/images/dino.jpg' name='enter name' size='small' shape='circular' centered />
-              </a>
-              <Header as='h3'>Nasdaq IR Insight Messaging</Header>
-          </Grid.Column>
-          <Grid.Column>
-              <a href="#">
-                <Image src='assets/images/dino.jpg' name='enter name' size='small' shape='circular' centered />
-              </a>
-              <Header as='h3'>Nasdaq IR Mobile</Header>
-          </Grid.Column>
-          <Grid.Column>
-              <a href="#">
-                <Image src='assets/images/dino.jpg' name='enter name' size='small' shape='circular' centered />
-              </a>
-              <Header as='h3'>Nasdaq Webhosting</Header>
-          </Grid.Column>
-        </Grid.Row>
-        <Grid.Row centered columns={4}>
-          <Grid.Column>
-              <a href="#">
-                <Image src='assets/images/dino.jpg' name='enter name' size='small' shape='circular' centered />
-              </a>
-              <Header as='h3'>UXDC</Header>
-          </Grid.Column>
-          <Grid.Column>
-              <a href="#">
-                <Image src='assets/images/dino.jpg' name='enter name' size='small' shape='circular' centered />
-              </a>
-              <Header as='h3'>Wanderant</Header>
-          </Grid.Column>
-          <Grid.Column>
-              <a href="#">
-                <Image src='assets/images/dino.jpg' name='enter name' size='small' shape='circular' centered />
-              </a>
-              <Header as='h3'>Seth Moulton</Header>
-          </Grid.Column>
-        </Grid.Row>
-      </Grid>
+      <div>
+        <Subnav />
+        <Switch>
+          <Route exact path='/work/kafsc' component={kafsc} />
+          <Route exact path='/work/nexion' component={nexion} />
+          <Route exact path='/work/rxemporium' component={rxemporium} />
+          <Route exact path='/work/nqdesktop' component={nqdesktop} />
+          <Route exact path='/work/nqmobile' component={nqmobile} />
+          <Route exact path='/work/nqwebhost' component={nqwebhost} />
+          <Route exact path='/work/uxdc' component={uxdc} />
+          <Route exact path='/work/wanderant' component={wanderant} />
+          <Route exact path='/work/moultoncampaign' component={moultoncampaign} />
+        </Switch>
+      </div>
     );
   }
 }

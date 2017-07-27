@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import { Grid, Image, Header} from 'semantic-ui-react'
-import Footer from '../components/footer'
+import Footer from '../patterns/Footer'
 class process extends Component {
   render() {
     return (
