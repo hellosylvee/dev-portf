@@ -10,15 +10,15 @@ const nexion = () => {
           <Header as='h1'>Allstate</Header>
           <div className='process-step animated fadeIn'>
             <Image centered bordered
-              src='/assets/images/work/work_rx.png' name='nasdaq desktop' size='massive' />
+              src='/assets/images/work/work_nexion.png' name='nasdaq desktop' size='massive' />
             <Header as='h2'>A Mobile Insurance Concept</Header>
             <Header as='h2'>Context</Header>
             <div className='body-text'>
-              Rx Emporium is a responsive web application for customers to order and/or refill their medical prescription orders. This application quickly identifies past orders and provide intuitive way to order new prescription medication within minutes. Rx Emporium is a pseudonym for Express Scripts.
+              Nexion Mobile is a responsive web application that allows any smartphone user to purchase multiple protection plans for themselves and family members easily and have their smartphones be insured in matter of minutes. Nexion is a pseudonym for Allstate.
             </div><br/>
 
             <div className='body-text'>
-              Rx Emporium is a pharmacy benefit manager, working as a middleman between drug manufacturers and employers. The benefit manager (ie. Walgreen) pays pharmacies to dispense generic and brand drugs. Rx Emporium processes some 1.5 billion drug orders every year. The stakeholders want to increase sign-ups for mail-order delivery, and proposed an iOS app that scans pharmacy prescription bottles for automatic refills and be delivered at the front door.
+              Nexion is a large personal lines insurer company that provides insurance and financial products. Nexion wants to break into phone insurance market that estimates $48 billion by 2020. Nexion stakeholders want to build an easy, intuitive purchase funnel for consumers to buy phone insurance.
             </div><br/>
 
             <div className='body-text'>
@@ -26,47 +26,52 @@ const nexion = () => {
             </div><br/>
 
             <List bulleted>
-              <List.Item>iOS native app</List.Item>
               <List.Item>Simple, intuitive multi-purchase workflow</List.Item>
+              <List.Item>Provide coverage for latest models only</List.Item>
               <List.Item>Intake and validate CC information</List.Item>
+              <List.Item>Send out insurance policy number via mail</List.Item>
+              <List.Item>Easy, informational process for filing a claim</List.Item>
             </List><br/>
 
             <Header as='h2'>Discovery</Header>
             <div className='body-text'>
               With an open mind, I looked into the stakeholder's idea, by downloading a competitor's prescription-scanning app. The experience was underwhelming as it was unable to scan the bottle accurately. Meanwhile, I was curious about people's thoughts on prescriptions and how they got them refilled. So I reached out to people for interviews on Craigslist and social media. From the interviews, we heard similar pains and needs; people were:
             </div><br/>
-            <List bulleted>
-              <List.Item>Too bothered to fill out paper application for home delivery service</List.Item>
-              <List.Item>Unaware of home delivery service was included with their health insurance</List.Item>
-              <List.Item>Rather pick up their prescription for themselves because it was easier</List.Item>
-              <List.Item>Pleasantly surprised home delivery was convenient after tedious sign up</List.Item>
-              <List.Item>Not excited to download an app to manage their prescriptions</List.Item>
-            </List><br/>
             <div className='body-text'>
-              Along with user interviews, I became familiar with Rx Emporium's Home Delivery website through service blue print, a technique to understand the prescription order and refill processes. With user interviews and service blueprint, I recognized that the current home delivery signup is a slow, tedious process.
+              The results from the first round of interviews were subpar because I didn't have the right target group. So for the second, I screened for people through a detailed survey with open-ended questions, and this dramatically improved quality in interview answers. From the interviews, noticeable trends bubbled up such as people:
             </div><br/>
-            <Image centered bordered src='/assets/images/work/rx-interview.jpg' name='nasdaq desktop' size='massive' /><br/>
+            <List bulleted>
+              <List.Item>Bought insurance at time of phone purchase/upgrade</List.Item>
+              <List.Item>Were unaware that insurance can be bought outside of carriers</List.Item>
+              <List.Item>Preferred monthly payments to 1-year payment</List.Item>
+              <List.Item>Felt frustrated and annoyed when they filed a claim</List.Item>
+              <List.Item>Have a dependent attachment to their phones</List.Item>
+            </List><br/>
+            <Image centered bordered src='/assets/images/work/nexion-assumptions.jpg' name='nasdaq desktop' size='massive' /><br/>
 
             <Header as='h3'>FRAMING</Header>
             <div className='body-text'>
-              I focused on initial home delivery signup as there was no substantial need for a native app. Overall, people wanted their prescription with little effort, and I strongly believed an easy setup process could increase in the number of signups. There is high user-value and pain in the delivery signup, and the feasibility for a signup workflow is possible. To generate ideas and change perspective into software solutions, I reframed the problem into a "How Might We..." statement:
+              Our sample group mentioned an attachment to their phones, and felt "naked" without them. Oddly enough, they opt-out of insurance to cut costs. Some angrily canceled their insurance after filing a claim because they had to pay a deductible in order for their phones to be replaced. This cognitive dissonance sparked an interesting design challenge:
             </div><br/>
-            <Header size='huge'>"How might we make home delivery signup a simple process for new and existing customers?"</Header><br/>
+            <Header size='huge'>"How might we provide clear, informative insurance plans that are affordable for money-conscious people?"</Header><br/>
             <div className='body-text'>
-              I brainstormed and created a paper prototype to test this concept. With positive feedback received, I worked on a high-fidelity prototype in Sketch and Invision, and worked closely with product management to design incrementally in user stories.
+              Along with the rest of the project team, I generated as many solution ideas to answer this question. The ideas are usually open-ended, not specific components in the product. All ideas (written in post-its) were "synthesized", a process in which ideas are categorized by themes. There were many ideas that range from interaction design to process, so I prioritized them based on a simple question: "Does this solution solve a user need?"
             </div><br/>
-            <Image centered bordered src='/assets/images/work/rx-sketching.jpg' name='nasdaq desktop' size='massive' /><br/>
+            <div className='body-text'>
+              From there, I drafted a rough prototype to validate this solution through concept testing, a similar form of testing with focus on concept feedback instead of usability's.
+            </div><br/>
+            <Image centered bordered src='/assets/images/work/nexion-sketching.jpg' name='nasdaq desktop' size='massive' /><br/>
 
             <Header as='h3'>WORKING IN ITERATIONS</Header>
             <div className='body-text'>
-              I had a regular rhythm of designing and testing as user feedback loops minimized product risks. I worked in weekly iterations, ahead of engineering by at least 3 weeks. This distance gives breath for design and product management to test features before engineers build them out.
+              I worked closely with a product manager to assess and prioritize opportunities and constraints. For upcoming features, I faciliated sketching sessions called design studios to frame a problem in a scenario and sketch ideas on paper. This activity provided collaboration with all members in the project team and partake ownership in designs of the product.
             </div><br/>
 
             <Header as='h3'>FINISHED PRODUCT</Header>
             <div className='body-text'>
-              The product was finished and released into the wild in 6 months. The home delivery signup is a simple online application form, and existing customers can have their past prescriptions automatically loaded with a simple button click. Look below to see the final designs for Rx Emporium's Home Delivery website.
+              A responsive web application that allows smartphone users to purchase phone insurance easily. Nexion Mobile provides 3 protection plans with various coverages: Cracked Screen, Serious Malfunction, and Complete Damage. All 3 plans provide monthly or one-time payment options. After a successful payment, a customer can activate the protection plan by downloading a diagnostics app that checks for software and hardware qualities. Look below to see the final designs for Nexion.
             </div><br/>
-            <Image centered bordered src='/assets/images/work/rx.png' name='nasdaq desktop' size='massive' /><br/>
+            <Image centered bordered src='/assets/images/work/nexion-final.png' name='nasdaq desktop' size='massive' /><br/>
 
           </div>
         </Grid.Column>
