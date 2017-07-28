@@ -21,6 +21,16 @@ const rxemporium = () => {
               Rx Emporium is a pharmacy benefit manager, working as a middleman between drug manufacturers and employers. The benefit manager (ie. Walgreen) pays pharmacies to dispense generic and brand drugs. Rx Emporium processes some 1.5 billion drug orders every year. The stakeholders want to increase sign-ups for mail-order delivery, and proposed an iOS app that scans pharmacy prescription bottles for automatic refills and be delivered at the front door.
             </div><br/>
 
+            <div className='body-text'>
+              The business requirements for this app were a(n):
+            </div><br/>
+            
+            <List bulleted>
+              <List.Item>iOS native app</List.Item>
+              <List.Item>Simple, intuitive multi-purchase workflow</List.Item>
+              <List.Item>Intake and validate CC information</List.Item>
+            </List><br/>
+
             <Header as='h2'>Discovery</Header>
             <div className='body-text'>
               With an open mind, I looked into the stakeholder's idea, by downloading a competitor's prescription-scanning app. The experience was underwhelming as it was unable to scan the bottle accurately. Meanwhile, I was curious about people's thoughts on prescriptions and how they got them refilled. So I reached out to people for interviews on Craigslist and social media. From the interviews, we heard similar pains and needs; people were:

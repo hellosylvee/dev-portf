@@ -20,8 +20,8 @@ class work extends Component {
         <Subnav />
         <Switch>
           <Route path='/work/kafsc' component={kafsc} />
-          <Route path='/work/nexion' component={nexion} />
-          <Route path='/work/rxemporium' component={rxemporium} />
+          <Route path='/work/allstate' component={nexion} />
+          <Route path='/work/express-scripts' component={rxemporium} />
           <Route path='/work/nqdesktop' component={nqdesktop} />
           <Route path='/work/nqmobile' component={nqmobile} />
           <Route path='/work/nqwebhost' component={nqwebhost} />

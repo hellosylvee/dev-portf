@@ -11,50 +11,50 @@ export default class Subnav extends Component {
         <Grid.Row centered columns={10}>
           <Header as='h1' className='subnav animated fadeInDown'>Work</Header>
           <Grid.Column>
-              <a><Link to='/work/nexion'>
-                <Image src='assets/images/dino.jpg' name='kafsc' size='tiny' shape='circular' centered />
+              <a><Link to='/work/allstate'>
+                <Image src='assets/images/work/thumbnail-nexion.png' name='nexion' size='tiny' shape='circular' centered bordered />
               </Link></a>
-              <Header as='h3'>Nexion</Header>
+              <Header as='h3'>Allstate</Header>
           </Grid.Column>
           <Grid.Column>
-            <a><Link to='/work/rxemporium'>
-              <Image src='assets/images/work/thumbnail-rx.png' name='enter name' size='tiny' shape='circular' centered bordered />
+            <a><Link to='/work/express-scripts'>
+              <Image src='assets/images/work/thumbnail-rx.png' name='rx emporium' size='tiny' shape='circular' centered bordered />
             </Link></a>
             <Header as='h3'>Express Scripts</Header>
           </Grid.Column>
           <Grid.Column>
             <a><Link to='/work/kafsc'>
-              <Image src='assets/images/work/thumbnail-kafsc.png' name='enter name' size='tiny' shape='circular' bordered centered />
+              <Image src='assets/images/work/thumbnail-kafsc.png' name='kafsc' size='tiny' shape='circular' bordered centered />
             </Link></a>
             <Header as='h3'>KAFSC</Header>
           </Grid.Column>
           <Grid.Column>
             <a><Link to='/work/nqdesktop'>
-              <Image src='assets/images/work/thumbnail-nasdaq.png' name='enter name' size='tiny' shape='circular' centered />
+              <Image src='assets/images/work/thumbnail-nasdaq.png' name='nasdaq desktop' size='tiny' shape='circular' centered />
             </Link></a>
             <Header as='h3'>IR Insight Messaging</Header>
           </Grid.Column>
           <Grid.Column>
             <a><Link to='/work/nqmobile'>
-              <Image src='assets/images/work/thumbnail-nasdaq.png' name='enter name' size='tiny' shape='circular' centered />
+              <Image src='assets/images/work/thumbnail-nasdaq.png' name='nasdaq mobile' size='tiny' shape='circular' centered />
             </Link></a>
             <Header as='h3'>IR Mobile</Header>
           </Grid.Column>
           <Grid.Column>
             <a><Link to='/work/nqwebhost'>
-              <Image src='assets/images/work/thumbnail-nasdaq.png' name='enter name' size='tiny' shape='circular' centered />
+              <Image src='assets/images/work/thumbnail-nasdaq.png' name='nasdaq webhost' size='tiny' shape='circular' centered />
             </Link></a>
             <Header as='h3'>Nasdaq Webhosting</Header>
           </Grid.Column>
           <Grid.Column>
             <a><Link to='/work/uxdc'>
-              <Image src='assets/images/work/thumbnail-uxdc.png' name='enter name' size='tiny' shape='circular' centered />
+              <Image src='assets/images/work/thumbnail-uxdc.png' name='uxdc' size='tiny' shape='circular' centered bordered/>
             </Link></a>
             <Header as='h3'>UXDC</Header>
           </Grid.Column>
           <Grid.Column>
             <a><Link to='/work/wanderant'>
-              <Image src='assets/images/work/thumbnail-wanderant.png' name='enter name' size='tiny' shape='circular' centered />
+              <Image src='assets/images/work/thumbnail-wanderant.png' name='wanderant' size='tiny' shape='circular' centered />
             </Link></a>
             <Header as='h3'>Wanderant</Header>
           </Grid.Column>
