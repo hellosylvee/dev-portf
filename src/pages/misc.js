@@ -38,7 +38,7 @@ class process extends Component {
             <Image centered bordered src='assets/images/sign.jpg' name='inspirational message' size='medium' />
           </Grid.Column>
           <Grid.Column className='misc-photo animated rollIn'>
-            <Image centered bordered src='assets/images/hollywood.jpg' name='hollywood sign' size='medium' />
+            <Image centered bordered src='assets/images/spice.jpg' name='hollywood sign' size='medium' />
           </Grid.Column>
         </Grid.Row>
         <Grid.Row centered columns={3}>
