@@ -9,7 +9,7 @@ const moultoncampaign = () => {
         <Grid.Column>
           <Header as='h1'>UXDC</Header>
           <div className='process-step animated fadeIn'>
-            <Image centered bordered
+            <Image centered
               src='/assets/images/work/work_uxdc.png' name='uxdc' size='massive' />
             <Header as='h2'>UXDC Conference</Header>
             <div className='body-text'>

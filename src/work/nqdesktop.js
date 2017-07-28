@@ -10,7 +10,7 @@ const nqdesktop = () => {
           <Header as='h1'>Nasdaq IR Insight</Header>
           <div>You're Dyno-mite! But this page isn't. Womp womp. Work in progress.</div>
           {/* <div className='process-step animated fadeIn'>
-            <Image centered bordered
+            <Image centered
               as='a'
               href='https://www.wanderant.com/?utm_source=BetaList#/start'
               target='_blank'

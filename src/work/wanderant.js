@@ -9,7 +9,7 @@ const moultoncampaign = () => {
         <Grid.Column>
           <Header as='h1'>Wanderant</Header>
           <div className='process-step animated fadeIn'>
-            <Image centered bordered
+            <Image centered
               as='a'
               href='https://www.wanderant.com/?utm_source=BetaList#/start'
               target='_blank'

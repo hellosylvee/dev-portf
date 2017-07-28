@@ -30,19 +30,19 @@ export default class Subnav extends Component {
           </Grid.Column>
           <Grid.Column>
             <a><Link to='/work/nqdesktop'>
-              <Image src='assets/images/dino.jpg' name='enter name' size='tiny' shape='circular' centered />
+              <Image src='assets/images/work/thumbnail-nasdaq.png' name='enter name' size='tiny' shape='circular' centered />
             </Link></a>
             <Header as='h3'>IR Insight Messaging</Header>
           </Grid.Column>
           <Grid.Column>
             <a><Link to='/work/nqmobile'>
-              <Image src='assets/images/dino.jpg' name='enter name' size='tiny' shape='circular' centered />
+              <Image src='assets/images/work/thumbnail-nasdaq.png' name='enter name' size='tiny' shape='circular' centered />
             </Link></a>
             <Header as='h3'>IR Mobile</Header>
           </Grid.Column>
           <Grid.Column>
             <a><Link to='/work/nqwebhost'>
-              <Image src='assets/images/dino.jpg' name='enter name' size='tiny' shape='circular' centered />
+              <Image src='assets/images/work/thumbnail-nasdaq.png' name='enter name' size='tiny' shape='circular' centered />
             </Link></a>
             <Header as='h3'>Nasdaq Webhosting</Header>
           </Grid.Column>

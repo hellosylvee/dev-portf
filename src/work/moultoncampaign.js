@@ -9,7 +9,7 @@ const moultoncampaign = () => {
         <Grid.Column>
           <Header as='h1'>Seth Moulton For Congress</Header>
           <div className='process-step animated fadeIn'>
-            <Image centered bordered
+            <Image centered
               as='a'
               href='http://www.sethmoulton.com/'
               target='_blank'
