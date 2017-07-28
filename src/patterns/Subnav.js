@@ -8,7 +8,7 @@ export default class Subnav extends Component {
   render() {
     return (
       <Grid stackable>
-        <Grid.Row centered columns={12}>
+        <Grid.Row centered columns={10}>
           <Header as='h1' className='subnav animated fadeInDown'>Work</Header>
           <Grid.Column>
               <a><Link to='/work/nexion'>
@@ -18,9 +18,9 @@ export default class Subnav extends Component {
           </Grid.Column>
           <Grid.Column>
             <a><Link to='/work/rxemporium'>
-              <Image src='assets/images/dino.jpg' name='enter name' size='tiny' shape='circular' centered />
+              <Image src='assets/images/work/thumbnail-rx.png' name='enter name' size='tiny' shape='circular' centered bordered />
             </Link></a>
-            <Header as='h3'>RxEmporium</Header>
+            <Header as='h3'>Express Scripts</Header>
           </Grid.Column>
           <Grid.Column>
             <a><Link to='/work/kafsc'>

@@ -1,56 +1,62 @@
 import React from 'react'
 
-import { Header, Grid, Image } from 'semantic-ui-react'
+import { Header, Grid, Image, List } from 'semantic-ui-react'
 
 const rxemporium = () => {
   return(
     <Grid stackable>
       <Grid.Row centered columns="2">
         <Grid.Column>
-          <Header as='h1'>Nasdaq IR Insight</Header>
+          <Header as='h1'>Express Scripts</Header>
           <div className='process-step animated fadeIn'>
-            <Image centered
-              src='/assets/images/work/work_ir-desktop.png' name='nasdaq desktop' size='large' />
-            <Header as='h2'>IR Insight In Your Hands</Header>
+            <Image centered bordered
+              src='/assets/images/work/work_rx.png' name='nasdaq desktop' size='massive' />
+            <Header as='h2'>A Home Delivery Prescription Service</Header>
+            <Header as='h2'>Context</Header>
             <div className='body-text'>
-              Nasdaq IR Desktop is a ground-breaking platform built exclusively for the Investor Relations community. It monitors all components in a one intuitive, and customizable platform, access to premium content and news, gain unique insight into buy-side decision-making, leverage time-saving tools to monitor developments, prioritize outreach, and measure its impact, plan investor meetings, and analyze your peers.
+              Rx Emporium is a responsive web application for customers to order and/or refill their medical prescription orders. This application quickly identifies past orders and provide intuitive way to order new prescription medication within minutes. Rx Emporium is a pseudonym for Express Scripts.
             </div><br/>
 
-            <Header as='h3'>DISCOVERY</Header>
             <div className='body-text'>
-              Initial Research. Before designing and building the messaging section of IR Insight desktop product, I spent a week listening to user interviews conducted by the research lead and performed competitive research to see similar products in the market. I also looked into the original blast messaging workflow which showed a tedious process in the existing product. With my product manager, We went over user stories to refine them down to actionable goals that can produce a message section for our personas
+              Rx Emporium is a pharmacy benefit manager, working as a middleman between drug manufacturers and employers. The benefit manager (ie. Walgreen) pays pharmacies to dispense generic and brand drugs. Rx Emporium processes some 1.5 billion drug orders every year. The stakeholders want to increase sign-ups for mail-order delivery, and proposed an iOS app that scans pharmacy prescription bottles for automatic refills and be delivered at the front door.
             </div><br/>
-            <Image centered bordered src='/assets/images/work/desktop-mainideas.png' name='nasdaq desktop' size='massive' /><br/>
-            <Image centered bordered src='/assets/images/work/desktop-personas.png' name='nasdaq desktop' size='massive' /><br/>
 
+            <Header as='h2'>Discovery</Header>
             <div className='body-text'>
-              Designing Concepts After the initial research, I brainstormed for different launch points for messaging in various areas within the system. I worked with other product designers who were working on different parts of the system to collaborate on the secondary workflows.
+              With an open mind, I looked into the stakeholder's idea, by downloading a competitor's prescription-scanning app. The experience was underwhelming as it was unable to scan the bottle accurately. Meanwhile, I was curious about people's thoughts on prescriptions and how they got them refilled. So I reached out to people for interviews on Craigslist and social media. From the interviews, we heard similar pains and needs; people were:
             </div><br/>
-            <Image centered bordered src='/assets/images/work/desktop-launchpoints.png' name='nasdaq desktop' size='massive' /><br/>
-            <Image centered bordered src='/assets/images/work/desktop-workflow.png' name='nasdaq desktop' size='massive' /><br/>
+            <List bulleted>
+              <List.Item>Too bothered to fill out paper application for home delivery service</List.Item>
+              <List.Item>Unaware of home delivery service was included with their health insurance</List.Item>
+              <List.Item>Rather pick up their prescription for themselves because it was easier</List.Item>
+              <List.Item>Pleasantly surprised home delivery was convenient after tedious sign up</List.Item>
+              <List.Item>Not excited to download an app to manage their prescriptions</List.Item>
+            </List><br/>
+            <div className='body-text'>
+              Along with user interviews, I became familiar with Rx Emporium's Home Delivery website through service blue print, a technique to understand the prescription order and refill processes. With user interviews and service blueprint, I recognized that the current home delivery signup is a slow, tedious process.
+            </div><br/>
+            <Image centered bordered src='/assets/images/work/rx-interview.jpg' name='nasdaq desktop' size='massive' /><br/>
 
-            <Header as='h3'>DEFINE</Header>
+            <Header as='h3'>FRAMING</Header>
             <div className='body-text'>
-              Defining Specific Workflows. From broad to specific, I drafted detailed workflows. This documentation was drafted to explain the interactions and concepts to the developers.
+              I focused on initial home delivery signup as there was no substantial need for a native app. Overall, people wanted their prescription with little effort, and I strongly believed an easy setup process could increase in the number of signups. There is high user-value and pain in the delivery signup, and the feasibility for a signup workflow is possible. To generate ideas and change perspective into software solutions, I reframed the problem into a "How Might We..." statement:
             </div><br/>
-            <Image centered bordered src='/assets/images/work/desktop-screen1.png' name='nasdaq desktop' size='massive' /><br/>
-            <Image centered bordered src='/assets/images/work/desktop-screen2.png' name='nasdaq desktop' size='massive' /><br/>
-            <Image centered bordered src='/assets/images/work/desktop-screen3.png' name='nasdaq desktop' size='massive' /><br/>
-            <Image centered bordered src='/assets/images/work/desktop-screen4.png' name='nasdaq desktop' size='massive' /><br/>
+            <Header size='huge'>"How might we make home delivery signup a simple process for new and existing customers?"</Header><br/>
+            <div className='body-text'>
+              I brainstormed and created a paper prototype to test this concept. With positive feedback received, I worked on a high-fidelity prototype in Sketch and Invision, and worked closely with product management to design incrementally in user stories.
+            </div><br/>
+            <Image centered bordered src='/assets/images/work/rx-sketching.jpg' name='nasdaq desktop' size='massive' /><br/>
 
-            <Header as='h3'>BUILD</Header>
+            <Header as='h3'>WORKING IN ITERATIONS</Header>
             <div className='body-text'>
-              Build, build, build. With another product designer, we broke down to divide and conquer. We built out the messaging section in 3 weeks. I focused mainly on the main page of all mesages and reports. I worked with another product designer on the team to receive feedback on the presentation and content layout of the reports. Through iterations and refinements, we were able to move onto the next step of the process - usability testing.
+              I had a regular rhythm of designing and testing as user feedback loops minimized product risks. I worked in weekly iterations, ahead of engineering by at least 3 weeks. This distance gives breath for design and product management to test features before engineers build them out.
             </div><br/>
-            <Image centered bordered src='/assets/images/work/desktop-build.png' name='nasdaq desktop' size='massive' /><br/>
-            <Image centered bordered src='/assets/images/work/desktop-discovery.png' name='nasdaq desktop' size='massive' /><br/>
-            <Image centered bordered src='/assets/images/work/desktop-listview.png' name='nasdaq desktop' size='massive' /><br/>
 
-            <Header as='h3'>REFINE</Header>
+            <Header as='h3'>FINISHED PRODUCT</Header>
             <div className='body-text'>
-              With two other product designers, we traveled up to Stamford Connecticut to conduct usability testing with one of our clients. In an hour session, we asked questions and received feedback on the design and interaction implementations. I was in charge of writing notes, uploading interview content, and writing a brief on the session. In the following 3 weeks, we conduct more interviews in North America and in Europe. After each research sessions, we went back to make changes based on the feedback we received such as button colors, content layout, and small interaction fixes.
+              The product was finished and released into the wild in 6 months. The home delivery signup is a simple online application form, and existing customers can have their past prescriptions automatically loaded with a simple button click. Look below to see the final designs for Rx Emporium's Home Delivery website.
             </div><br/>
-            <Image centered bordered src='/assets/images/work/desktop-refine.png' name='nasdaq desktop' size='massive' /><br/>
+            <Image centered bordered src='/assets/images/work/rx.png' name='nasdaq desktop' size='massive' /><br/>
 
           </div>
         </Grid.Column>

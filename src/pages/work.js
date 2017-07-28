@@ -14,6 +14,7 @@ import moultoncampaign from '../work/moultoncampaign'
 
 class work extends Component {
   render() {
+    let project = ['kafsc', 'nexion', 'rxemporium', 'nqdesktop', 'nqmobile', 'nqwebhost', 'uxdc', 'wanderant', 'moultoncampaign']
     return (
       <div>
         <Subnav />
