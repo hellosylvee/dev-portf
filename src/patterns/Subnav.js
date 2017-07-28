@@ -14,13 +14,13 @@ export default class Subnav extends Component {
               <a><Link to='/work/nexion'>
                 <Image src='assets/images/dino.jpg' name='kafsc' size='tiny' shape='circular' centered />
               </Link></a>
-              <Header as='h3'>Allstate</Header>
+              <Header as='h3'>Nexion</Header>
           </Grid.Column>
           <Grid.Column>
             <a><Link to='/work/rxemporium'>
               <Image src='assets/images/dino.jpg' name='enter name' size='tiny' shape='circular' centered />
             </Link></a>
-            <Header as='h3'>Express Scripts</Header>
+            <Header as='h3'>RxEmporium</Header>
           </Grid.Column>
           <Grid.Column>
             <a><Link to='/work/kafsc'>
