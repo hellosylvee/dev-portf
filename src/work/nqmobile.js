@@ -10,10 +10,7 @@ const nqmobile = () => {
           <Header as='h1'>Nasdaq IR Mobile</Header>
           <div className='process-step animated fadeIn'>
             <Image centered bordered
-              as='a'
-              href='https://www.wanderant.com/?utm_source=BetaList#/start'
-              target='_blank'
-              src='/assets/images/work/work_ir-mobile.png' name='moultoncampaign' size='large' />
+              src='/assets/images/work/work_ir-mobile.png' name='nasdaq mobile' size='large' />
             <Header as='h2'>IR Insight In Your Hands</Header>
             <div className='body-text'>
               Nasdaq IR Desktop is a ground-breaking platform built exclusively for the Investor Relations community. It monitors all components in a one intuitive, and customizable platform, access to premium content and news, gain unique insight into buy-side decision-making, leverage time-saving tools to monitor developments, prioritize outreach, and measure its impact, plan investor meetings, and analyze your peers.
@@ -31,30 +28,21 @@ const nqmobile = () => {
               With a lot of wordsmithing and filtering, we focus on the content layout to optimize metadata. We work closely with the desktop team, and designs and content changes frequently, and we try to emulate the latest designs as much as possible. It was very important for both the mobile and desktop versions to be nearly exact as if the two products were built by one designer instead of two design teams.
             </div><br/>
             <Image centered bordered
-              as='a'
-              href='https://www.wanderant.com/?utm_source=BetaList#/start'
-              target='_blank'
-              src='/assets/images/work/mobile-buysideContact.jpg' name='moultoncampaign' size='massive' /><br/>
+              src='/assets/images/work/mobile-buysideContact.jpg' name='nasdaq mobile' size='massive' /><br/>
 
             <Header as='h3'>REFINE</Header>
             <div className='body-text'>
               All about the refinements. The designs go through design and product management reviews before they are shown to the actual clients for feedback. With the lead product researcher, I conducted usability testing with clients in North America and Europe.
             </div><br/>
             <Image centered bordered
-              as='a'
-              href='https://www.wanderant.com/?utm_source=BetaList#/start'
-              target='_blank'
-                src='/assets/images/work/mobile-buysideFirm.jpg' name='moultoncampaign' size='massive' /><br/>
+                src='/assets/images/work/mobile-buysideFirm.jpg' name='nasdaq mobile' size='massive' /><br/>
 
             <Header as='h3'>FURTHER RESEARCH</Header>
             <div className='body-text'>
               Getting the feedback. Along with mobile work, I paired up with the lead product researcher for product research. This heavily involves reaching out to internal teams and clients for interviews, taking notes in sessions, post-sessions debriefing, and writing up usability reports. Other tasks include sending e-mails, scheduling interviews, reviewing through transcripts, and designing quarterly infographics.
             </div><br/>
             <Image centered bordered
-              as='a'
-              href='https://www.wanderant.com/?utm_source=BetaList#/start'
-              target='_blank'
-              src='/assets/images/work/mobile-research.png' name='moultoncampaign' size='massive' /><br/>
+              src='/assets/images/work/mobile-research.png' name='nasdaq mobile' size='massive' /><br/>
 
           </div>
         </Grid.Column>

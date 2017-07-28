@@ -10,9 +10,6 @@ const nqwebhost = () => {
           <Header as='h1'>Nasdaq IR Webhosting</Header>
           <div className='process-step animated fadeIn'>
             <Image centered
-              as='a'
-              href='https://www.wanderant.com/?utm_source=BetaList#/start'
-              target='_blank'
               src='/assets/images/work/work_wh.png' name='moultoncampaign' size='large' />
             <Header as='h2'>Investor Relations Webhosting</Header>
             <div className='body-text'>
