@@ -9,10 +9,7 @@ const nqdesktop = () => {
         <Grid.Column>
           <Header as='h1'>Nasdaq IR Insight</Header>
           <div className='process-step animated fadeIn'>
-            <Image centered bordered
-              as='a'
-              href='https://www.wanderant.com/?utm_source=BetaList#/start'
-              target='_blank'
+            <Image centered
               src='/assets/images/work/work_ir-desktop.png' name='nasdaq desktop' size='large' />
             <Header as='h2'>IR Insight In Your Hands</Header>
             <div className='body-text'>

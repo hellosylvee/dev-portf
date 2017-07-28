@@ -18,15 +18,15 @@ class work extends Component {
       <div>
         <Subnav />
         <Switch>
-          <Route exact path='/work/kafsc' component={kafsc} />
-          <Route exact path='/work/nexion' component={nexion} />
-          <Route exact path='/work/rxemporium' component={rxemporium} />
-          <Route exact path='/work/nqdesktop' component={nqdesktop} />
-          <Route exact path='/work/nqmobile' component={nqmobile} />
-          <Route exact path='/work/nqwebhost' component={nqwebhost} />
-          <Route exact path='/work/uxdc' component={uxdc} />
-          <Route exact path='/work/wanderant' component={wanderant} />
-          <Route exact path='/work/moultoncampaign' component={moultoncampaign} />
+          <Route path='/work/kafsc' component={kafsc} />
+          <Route path='/work/nexion' component={nexion} />
+          <Route path='/work/rxemporium' component={rxemporium} />
+          <Route path='/work/nqdesktop' component={nqdesktop} />
+          <Route path='/work/nqmobile' component={nqmobile} />
+          <Route path='/work/nqwebhost' component={nqwebhost} />
+          <Route path='/work/uxdc' component={uxdc} />
+          <Route path='/work/wanderant' component={wanderant} />
+          <Route path='/work/moultoncampaign' component={moultoncampaign} />
         </Switch>
       </div>
     );

@@ -13,7 +13,7 @@ export default class NavBar extends Component {
 
     return (
       <Menu inverted secondary color='blue' fixed='top'>
-        <Menu.Item as={Link} to='/home'
+        <Menu.Item as={Link} to='/'
           name='home'
           active={activeItem === 'home'}
           onClick={this.handleItemClick}
