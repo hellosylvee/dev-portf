@@ -8,7 +8,7 @@ class design_process extends Component {
     return (
       <Grid stackable>
         <Grid.Row centered columns={2}>
-          <Header as='h1' className='animated fadeIn'>Process</Header>
+          <Header as='h1' className='animated fadeInDown'>Process</Header>
           <Grid.Column>
             <Segment>
               <span className='process-number small-text'>1</span>

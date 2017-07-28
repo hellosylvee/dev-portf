@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Grid, Header, Image, Segment, Button } from 'semantic-ui-react'
+import { Grid, Header, Image, Button } from 'semantic-ui-react'
 
 const moultoncampaign = () => {
   return(

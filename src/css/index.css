@@ -2,6 +2,10 @@
   margin-top: 75px;
 }
 
+h1.ui.header.subnav.animated.fadeInDown {
+  margin-top: 110px;
+}
+
 .profile-img {
   border: solid #1678c2 2px;
   margin-top: 10px;
