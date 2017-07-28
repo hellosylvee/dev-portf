@@ -12,7 +12,7 @@ export default class Subnav extends Component {
           <Header as='h1' className='animated fadeIn'>Work</Header>
           <Grid.Column>
               <a><Link to='/work/nexion'>
-                <Image src='assets/images/dino.jpg' name='enter name' size='tiny' shape='circular' centered />
+                <Image src='assets/images/dino.jpg' name='kafsc' size='tiny' shape='circular' centered />
               </Link></a>
               <Header as='h3'>Allstate</Header>
           </Grid.Column>
@@ -24,7 +24,7 @@ export default class Subnav extends Component {
           </Grid.Column>
           <Grid.Column>
             <a><Link to='/work/kafsc'>
-              <Image src='assets/images/work/kafsc.png' name='enter name' size='tiny' shape='circular' bordered centered />
+              <Image src='assets/images/work/thumbnail-kafsc.png' name='enter name' size='tiny' shape='circular' bordered centered />
             </Link></a>
             <Header as='h3'>KAFSC</Header>
           </Grid.Column>
@@ -52,21 +52,21 @@ export default class Subnav extends Component {
         <Grid.Row centered columns={4}>
           <Grid.Column>
             <a><Link to='/work/uxdc'>
-              <Image src='assets/images/dino.jpg' name='enter name' size='tiny' shape='circular' centered />
+              <Image src='assets/images/work/thumbnail-uxdc.png' name='enter name' size='tiny' shape='circular' centered />
             </Link></a>
             <Header as='h3'>UXDC</Header>
           </Grid.Column>
           <Grid.Column>
             <a><Link to='/work/wanderant'>
-              <Image src='assets/images/dino.jpg' name='enter name' size='tiny' shape='circular' centered />
+              <Image src='assets/images/work/thumbnail-wanderant.png' name='enter name' size='tiny' shape='circular' centered />
             </Link></a>
             <Header as='h3'>Wanderant</Header>
           </Grid.Column>
           <Grid.Column>
             <a><Link to='/work/moultoncampaign'>
-              <Image src='assets/images/dino.jpg' name='enter name' size='tiny' shape='circular' centered />
+              <Image src='assets/images/work/thumbnail-sethmoulton.png' name='sethmoulton' size='tiny' shape='circular' centered />
             </Link></a>
-            <Header as='h3'>Seth Moulton</Header>
+            <Header as='h3'>Seth Moulton For Congress</Header>
           </Grid.Column>
         </Grid.Row>
       </Grid>
