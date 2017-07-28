@@ -27,14 +27,14 @@ class Makings extends Component {
         </Grid.Column>
         <Grid.Column className='column-margin'>
           <Card>
-            <Image src='assets/images/cards-kafsc.png' name='kafsc' size='medium' />
+            <Image src='assets/images/cards-mta.png' name='kafsc' size='medium' />
             <Card.Content>
-              <Card.Header>Advocacy for KAFSC</Card.Header>
-              <Card.Description>A fund project to raise awareness on domestic violence and solicit discretionary funds from NYC council members.</Card.Description>
+              <Card.Header>eMTA LIRR</Card.Header>
+              <Card.Description>eMTA LIRR is a native mobile app, a rethinking of MTA LIRR schedule and ticketing experience.</Card.Description>
             </Card.Content>
             <Card.Content extra>
-              <a target='_blank' rel='noopener noreferrer' href='https://advocacyforkafsc.herokuapp.com/'>
-                Go to website <Icon name='arrow right' />
+              <a target='_blank' rel='noopener noreferrer' href='http://bit.ly/emta-sylveelee'>
+                View More <Icon name='arrow right' />
               </a>
             </Card.Content>
           </Card>
