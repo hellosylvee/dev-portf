@@ -7,7 +7,7 @@ import Makings from '../components/makings'
 import Works from '../components/works'
 import Posts from '../components/posts'
 import Mentoring from '../components/mentoring'
-import Speakings from '../components/speakings'
+// import Speakings from '../components/speakings'
 import Handletterings from '../components/handletterings'
 import Footer from '../patterns/Footer'
 
@@ -23,7 +23,7 @@ class home extends Component {
         <Works/>
         <Posts/>
         <Mentoring/>
-        <Speakings/>
+        {/* <Speakings/> */}
         <Handletterings/>
         <Footer/>
       </Grid>

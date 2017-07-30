@@ -12,7 +12,7 @@ export default class NavBar extends Component {
     const { activeItem } = this.state
 
     return (
-      <Menu inverted secondary color='blue' fixed='top'>
+      <Menu stackable inverted secondary color='blue' fixed='top'>
         <Menu.Item as={Link} to='/'
           name='home'
           active={activeItem === 'home'}
@@ -24,11 +24,11 @@ export default class NavBar extends Component {
         onClick={this.handleItemClick}
         > <Icon name='desktop' /> Work
         </Menu.Item>
-        <Menu.Item as={Link} to='/process' name='process'
+        {/* <Menu.Item as={Link} to='/process' name='process'
         active={activeItem === 'process'}
         onClick={this.handleItemClick}
         > <Icon name='idea' /> Process
-        </Menu.Item>
+        </Menu.Item> */}
         <Menu.Item as={Link} to='/misc' name='misc'
         active={activeItem === 'misc'}
         onClick={this.handleItemClick}
