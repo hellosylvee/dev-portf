@@ -5,8 +5,8 @@ class Projects extends Component {
   render() {
     return (
       <Grid.Row className='row-section' centered columns={4}>
-        <Header className='row-section-title'>I am a <span className='accent-color'>Web Developer</span>,</Header>
-        <Header className='row-section-text'>working on passion projects <a className='social-btn-width'
+        <Header className='row-section-title'>I am a <span className='accent-color'>Web Developer</span>.</Header>
+        <Header className='row-section-text'>Check out my recent projects <a className='social-btn-width'
             target='_blank' rel='noopener noreferrer' href='https://www.github.com/hellosylvee'>
             <Icon link name='code' color='blue' size='large'/>
           </a>.

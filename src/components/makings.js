@@ -9,7 +9,7 @@ class Makings extends Component {
     return (
       <Grid.Row className='row-section' centered columns={4}>
         <Header className='row-section-title'>I am a <span className='accent-color'>Maker</span>.</Header>
-        <Header className='row-section-text'>I love making stuff.
+        <Header className='row-section-text'>I love working on side projects.
         </Header>
         <Grid.Column className='column-margin'>
           <Card>

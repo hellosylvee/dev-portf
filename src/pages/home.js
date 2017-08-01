@@ -18,9 +18,9 @@ class home extends Component {
     return (
       <Grid stackable>
         <Intro/>
-        <Projects/>
-        <Makings/>
         <Works/>
+        <Makings/>
+        <Projects/>
         {/* <Posts/> */}
         <Mentoring/>
         {/* <Speakings/> */}
