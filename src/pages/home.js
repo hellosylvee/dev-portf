@@ -5,7 +5,7 @@ import Intro from '../components/intro'
 import Projects from '../components/projects'
 import Makings from '../components/makings'
 import Works from '../components/works'
-import Posts from '../components/posts'
+// import Posts from '../components/posts'
 import Mentoring from '../components/mentoring'
 // import Speakings from '../components/speakings'
 import Handletterings from '../components/handletterings'
@@ -21,7 +21,7 @@ class home extends Component {
         <Projects/>
         <Makings/>
         <Works/>
-        <Posts/>
+        {/* <Posts/> */}
         <Mentoring/>
         {/* <Speakings/> */}
         <Handletterings/>
