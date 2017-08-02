@@ -36,6 +36,7 @@ h1.ui.header.subnav.animated.fadeInDown {
 
 h2.header.process-title {
   margin: 10px 0px 25px 0px;
+  font-family: 'Abril Fatface', cursive;
 }
 
 .misc-photo {
@@ -86,6 +87,7 @@ h2.header.process-title {
 
 .ui.header.intro-title {
   font-size: 4em;
+  font-family: 'Spectral', serif;
 }
 
 .column-margin {
@@ -118,3 +120,7 @@ h3.ui.header.footer-text {
 p.current-year {
   color: #FFFFFF;
 }
+
+/*body {
+  font-family: 'Abril Fatface', cursive;
+}*/
