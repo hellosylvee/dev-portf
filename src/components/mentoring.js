@@ -9,7 +9,7 @@ class Mentoring extends Component {
         <Header className='row-section-text'>Read what my students say on
           <a className='social-btn-width'
             target='_blank' rel='noopener noreferrer' href='http://trydesignlab.com/hellosylvee'>
-            <Icon link name='arrow circle outline right' color='blue' size='large'/>
+            <Icon link name='arrow circle outline right' color='violet' size='large'/>
           </a>.
         </Header>
       </Grid.Row>

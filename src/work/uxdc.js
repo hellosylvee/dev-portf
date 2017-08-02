@@ -5,7 +5,7 @@ import { Grid, Header, Image, Button } from 'semantic-ui-react'
 const moultoncampaign = () => {
   return(
     <Grid stackable>
-      <Grid.Row centered columns="2">
+      <Grid.Row centered columns="1">
         <Grid.Column>
           <Header as='h1'>UXDC</Header>
           <div className='process-step animated fadeIn'>
@@ -45,16 +45,19 @@ const moultoncampaign = () => {
             </div><br/>
             <Image centered bordered
               src='/assets/images/work/uxdc-asset-presskit.jpg' name='uxdc presskit' size='massive' /><br/>
-
-            <Button color='blue'
-              fluid primary
-              as='a'
-              href='http://uxdcconference.org/'
-              target='_blank'>
-              View website
-            </Button>
-            <span>(Opens a new window)</span>
           </div>
+        </Grid.Column>
+      </Grid.Row>
+      <Grid.Row centered columns = '3'>
+        <Grid.Column>
+          <Button color='violet'
+            fluid primary
+            as='a'
+            href='http://www.sethmoulton.com/'
+            target='_blank'>
+            View website
+          </Button>
+          <span>(Opens a new window)</span>
         </Grid.Column>
       </Grid.Row>
     </Grid>

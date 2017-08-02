@@ -5,7 +5,7 @@ import { Header, Grid, Image } from 'semantic-ui-react'
 const nqwebhost = () => {
   return(
     <Grid stackable>
-      <Grid.Row centered columns="2">
+      <Grid.Row centered columns="1">
         <Grid.Column>
           <Header as='h1'>Nasdaq IR Webhosting</Header>
           <div className='process-step animated fadeIn'>

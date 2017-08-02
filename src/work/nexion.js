@@ -5,7 +5,7 @@ import { Header, Grid, Image, List } from 'semantic-ui-react'
 const nexion = () => {
   return(
     <Grid stackable>
-      <Grid.Row centered columns="2">
+      <Grid.Row centered columns="1">
         <Grid.Column>
           <Header as='h1'>Allstate</Header>
           <div className='process-step animated fadeIn'>
@@ -53,7 +53,7 @@ const nexion = () => {
             <div className='body-text'>
               Our sample group mentioned an attachment to their phones, and felt "naked" without them. Oddly enough, they opt-out of insurance to cut costs. Some angrily canceled their insurance after filing a claim because they had to pay a deductible in order for their phones to be replaced. This cognitive dissonance sparked an interesting design challenge:
             </div><br/>
-            <Header size='huge'>"How might we provide clear, informative insurance plans that are affordable for money-conscious people?"</Header><br/>
+            <Header className='pull-quote'>"How might we provide clear, informative insurance plans that are affordable for money-conscious people?"</Header><br/>
             <div className='body-text'>
               Along with the rest of the project team, I generated as many solution ideas to answer this question. The ideas are usually open-ended, not specific components in the product. All ideas (written in post-its) were "synthesized", a process in which ideas are categorized by themes. There were many ideas that range from interaction design to process, so I prioritized them based on a simple question: "Does this solution solve a user need?"
             </div><br/>

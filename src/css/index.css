@@ -1,5 +1,18 @@
-.ui.blue.secondary.stackable.top.fixed.menu {
+.ui.violet.secondary.top.fixed.menu {
   background-color: #FFFFFF;
+  -webkit-box-shadow: 3px 4px 11px -3px rgba(173,171,173,1);
+  -moz-box-shadow: 3px 4px 11px -3px rgba(173,171,173,1);
+  box-shadow: 3px 4px 11px -3px rgba(173,171,173,1);
+}
+
+.intro-background {
+  background: #ec008c;
+  background: -webkit-linear-gradient(to right, #fc6767, #ec008c, #9651af);
+  background: linear-gradient(to right, #fc6767, #ec008c, #9651af);
+}
+
+Icon {
+  background-color: #000;
 }
 
 .centered.two.column.row, .centered.three.column.row > .ui.header {
@@ -11,7 +24,7 @@ h1.ui.header.subnav.animated.fadeInDown {
 }
 
 .profile-img {
-  border: solid #1678c2 2px;
+  border: solid #6435C9 2px;
   margin-top: 10px;
 }
 
@@ -29,6 +42,8 @@ h1.ui.header.subnav.animated.fadeInDown {
   font-size: 1.2em;
   line-height: 1.71em;
   text-align: justify;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .span-text {
@@ -48,18 +63,6 @@ h2.header.process-title {
 
 .misc-photo {
   padding: 25px 0px;
-}
-
-.process-number {
-  padding: 4px 8px;
-  margin: 25px 0px 200px 0px;
-  background-color: #1678c2;
-  border-radius: 50px;
-  color: #FFFFFF;
-}
-
-.process-step {
-  margin-top: 25px;
 }
 
 .card-desc-align {
@@ -91,11 +94,25 @@ h2.header.process-title {
 }
 
 .accent-color {
-  color: #1678c2;
+  color: #6435C9; /*1678c2*/
+}
+
+.ui.header.pull-quote {
+  max-width: 720px;
+  margin: 25px auto;
+  font-size: 2.4em;
+  font-family: 'Playfair Display', sans-serif;
+  color: #000000;
+  opacity: .6;
+}
+
+.row-section-text.highlight-color {
+  color: #FFFFFF;
 }
 
 .ui.header.intro-title {
-  font-size: 4em;
+  color: #FFFFFF;
+  font-size: 4.8em;
   font-family: 'Playfair Display', serif;
 }
 
@@ -117,7 +134,9 @@ h2.header.process-title {
 }
 
 .footer-section {
-  background-color: #1678c2;
+  background: #ec008c;
+  background: -webkit-linear-gradient(to right, #fc6767, #ec008c, #9651af);
+  background: linear-gradient(to right, #fc6767, #ec008c, #9651af);
 }
 
 h3.ui.header.footer-text {
@@ -128,4 +147,9 @@ h3.ui.header.footer-text {
 
 p.current-year {
   color: #FFFFFF;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
 }

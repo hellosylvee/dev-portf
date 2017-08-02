@@ -10,7 +10,7 @@ class Works extends Component {
         <Header className='row-section-title'>I am a <span className='accent-color'>Product Designer</span>.</Header>
         <Header className='row-section-text'>I design products for people like <a>
             <Link to='/work'>
-              <Icon link name='users' color='blue' size='large'/>
+              <Icon link name='users' color='violet' size='large'/>
             </Link>
           </a>.
         </Header>

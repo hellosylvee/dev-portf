@@ -8,7 +8,7 @@ class Projects extends Component {
         <Header className='row-section-title'>I am a <span className='accent-color'>Web Developer</span>.</Header>
         <Header className='row-section-text'>Check out my recent projects <a className='social-btn-width'
             target='_blank' rel='noopener noreferrer' href='https://www.github.com/hellosylvee'>
-            <Icon link name='code' color='blue' size='large'/>
+            <Icon link name='code' color='violet' size='large'/>
           </a>.
         </Header>
         <Grid.Column className='column-margin'>

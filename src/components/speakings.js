@@ -9,7 +9,7 @@ class Speakings extends Component {
         <Header className='row-section-text'>I talk about code and design.<br/>
         <span className='grey-text'>Need a speaker? Let's talk! </span><a className='social-btn-width'
             target='_blank' rel='noopener noreferrer' href='https://mail.google.com/mail/?view=cm&fs=1&to=hellosylvee@gmail.com&su=Hello%20Sylvee&body=I%20am%20reaching%20to%20you%20for%20a%20speaking%20opportunity.%20'>
-            <Icon link name='mail outline' color='blue' size='large'/>
+            <Icon link name='mail outline' color='violet' size='large'/>
           </a>.
         </Header>
       </Grid.Row>

@@ -5,7 +5,7 @@ import { Header, Grid, Image, List } from 'semantic-ui-react'
 const rxemporium = () => {
   return(
     <Grid stackable>
-      <Grid.Row centered columns="2">
+      <Grid.Row centered columns="1">
         <Grid.Column>
           <Header as='h1'>Express Scripts</Header>
           <div className='process-step animated fadeIn'>
@@ -24,7 +24,7 @@ const rxemporium = () => {
             <div className='body-text'>
               The business requirements for this app were a(n):
             </div><br/>
-            
+
             <List bulleted>
               <List.Item>iOS native app</List.Item>
               <List.Item>Simple, intuitive multi-purchase workflow</List.Item>
@@ -51,7 +51,7 @@ const rxemporium = () => {
             <div className='body-text'>
               I focused on initial home delivery signup as there was no substantial need for a native app. Overall, people wanted their prescription with little effort, and I strongly believed an easy setup process could increase in the number of signups. There is high user-value and pain in the delivery signup, and the feasibility for a signup workflow is possible. To generate ideas and change perspective into software solutions, I reframed the problem into a "How Might We..." statement:
             </div><br/>
-            <Header size='huge'>"How might we make home delivery signup a simple process for new and existing customers?"</Header><br/>
+            <Header className='pull-quote'>"How might we make home delivery signup a simple process for new and existing customers?"</Header><br/>
             <div className='body-text'>
               I brainstormed and created a paper prototype to test this concept. With positive feedback received, I worked on a high-fidelity prototype in Sketch and Invision, and worked closely with product management to design incrementally in user stories.
             </div><br/>
