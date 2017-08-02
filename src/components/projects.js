@@ -36,7 +36,7 @@ class Projects extends Component {
           </Card>
         </Grid.Column>
         <Grid.Column className='column-margin'>
-          <Card centered floated='right'>
+          <Card centered>
             <Image src='assets/images/cards-emem.png' name='emem meme generator project' size='medium' />
             <Card.Content>
               <Card.Header>emeM Meme</Card.Header>
@@ -60,7 +60,7 @@ class Projects extends Component {
           </Card>
         </Grid.Column>
         <Grid.Column className='column-margin'>
-          <Card centered floated='right'>
+          <Card centered>
             <Image src='assets/images/cards-radlibz.png' name='radlibz project' size='medium' />
             <Card.Content>
               <Card.Header>Radlibz Demo</Card.Header>

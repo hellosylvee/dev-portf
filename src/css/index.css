@@ -1,3 +1,7 @@
+.ui.blue.secondary.stackable.top.fixed.menu {
+  background-color: #FFFFFF;
+}
+
 .centered.two.column.row, .centered.three.column.row > .ui.header {
   margin-top: 75px;
 }
@@ -20,8 +24,10 @@ h1.ui.header.subnav.animated.fadeInDown {
 }
 
 .body-text {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
   font-size: 1.2em;
-  line-height: 1.3em;
+  line-height: 1.71em;
   text-align: justify;
 }
 
@@ -36,7 +42,8 @@ h1.ui.header.subnav.animated.fadeInDown {
 
 h2.header.process-title {
   margin: 10px 0px 25px 0px;
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
 }
 
 .misc-photo {
@@ -72,12 +79,14 @@ h2.header.process-title {
 }
 
 .ui.header.row-section-title {
-  font-size: 3em;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 2.4em;
   margin-top: 50px;
 }
 
 .ui.header.row-section-text {
-  font-size: 3em;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 2.4em;
   margin-bottom: 50px;
 }
 
@@ -87,7 +96,7 @@ h2.header.process-title {
 
 .ui.header.intro-title {
   font-size: 4em;
-  font-family: 'Spectral', serif;
+  font-family: 'Playfair Display', serif;
 }
 
 .column-margin {
@@ -120,7 +129,3 @@ h3.ui.header.footer-text {
 p.current-year {
   color: #FFFFFF;
 }
-
-/*body {
-  font-family: 'Abril Fatface', cursive;
-}*/

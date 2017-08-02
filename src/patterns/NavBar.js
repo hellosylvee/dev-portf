@@ -12,7 +12,7 @@ export default class NavBar extends Component {
     const { activeItem } = this.state
 
     return (
-      <Menu stackable secondary color='blue' fixed='top'>
+      <Menu secondary color='blue' fixed='top'>
         <Menu.Item as={Link} to='/'
           name='home'
           active={activeItem === 'home'}
@@ -22,22 +22,22 @@ export default class NavBar extends Component {
         <Menu.Item as={Link} to='/work' name='work'
         active={activeItem === 'work'}
         onClick={this.handleItemClick}
-        > <Icon name='desktop' /> Work
+        > Work
         </Menu.Item>
         {/* <Menu.Item as={Link} to='/process' name='process'
         active={activeItem === 'process'}
         onClick={this.handleItemClick}
         > <Icon name='idea' /> Process
         </Menu.Item> */}
-        <Menu.Item as={Link} to='/misc' name='misc'
-        active={activeItem === 'misc'}
+        <Menu.Item as={Link} to='/photography' name='photography'
+        active={activeItem === 'photography'}
         onClick={this.handleItemClick}
-        > <Icon name='camera retro' /> Misc.
+        > Photography
         </Menu.Item>
         <Menu.Item as={Link} to='/about' name='about'
           active={activeItem === 'about'}
           onClick={this.handleItemClick}
-        > <Icon name='user' /> About
+        > About
         </Menu.Item>
       </Menu>
     )

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import { Grid, Image, Header} from 'semantic-ui-react'
 import Footer from '../patterns/Footer'
-class process extends Component {
+class photography extends Component {
   render() {
     return (
       <Grid stackable>
@@ -58,4 +58,4 @@ class process extends Component {
   }
 }
 
-export default process;
+export default photography;
