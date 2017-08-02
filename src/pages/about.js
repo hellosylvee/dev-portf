@@ -29,7 +29,7 @@ class about extends Component {
               </a>
             </div>
             <div className='body-text'>
-              A designer turned developer, I am driven to build UIs through dynamic code in JavaScript, Ruby on Rails, React/Redux, and HTML5/CSS3. Previously, I was a product designer, disrupting traditional business practices and designing state-of-the-art applications that involved user research, interaction design, and HTML/CSS prototyping. I am a recent graduate of Flatiron School, and now excited to be challenged, engaged, and inspired as a product designer and front-end engineer.
+              I am a product designer and developer in NYC, disrupting traditional business practices and designing state-of-the-art applications that involved user research, interaction design, and HTML/CSS prototyping. I am driven to design and build dynamic UIs through photoshop/sketch and code in JavaScript and frameworks, Ruby on Rails, React/Redux, and HTML5/CSS3.
             </div>
             <div className='contact-btns'>
               <Icon className='animated infinite tada' color='violet' name='send' />

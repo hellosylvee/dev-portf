@@ -19,26 +19,28 @@ export default class NavBar extends Component {
           onClick={this.handleItemClick}
         > <Icon name='diamond' /> Sylvee Lee
         </Menu.Item>
-        <Menu.Item as={Link} to='/work' name='work'
-        active={activeItem === 'work'}
-        onClick={this.handleItemClick}
-        > Work
-        </Menu.Item>
-        {/* <Menu.Item as={Link} to='/process' name='process'
-        active={activeItem === 'process'}
-        onClick={this.handleItemClick}
-        > <Icon name='idea' /> Process
-        </Menu.Item> */}
-        <Menu.Item as={Link} to='/photography' name='photography'
-        active={activeItem === 'photography'}
-        onClick={this.handleItemClick}
-        > Photography
-        </Menu.Item>
-        <Menu.Item as={Link} to='/about' name='about'
-          active={activeItem === 'about'}
+        {/* <Menu.Menu position='right'> */}
+          <Menu.Item as={Link} to='/work' name='work'
+          active={activeItem === 'work'}
           onClick={this.handleItemClick}
-        > About
-        </Menu.Item>
+          > Work
+          </Menu.Item>
+          {/* <Menu.Item as={Link} to='/process' name='process'
+          active={activeItem === 'process'}
+          onClick={this.handleItemClick}
+          > <Icon name='idea' /> Process
+          </Menu.Item> */}
+          <Menu.Item as={Link} to='/photography' name='photography'
+          active={activeItem === 'photography'}
+          onClick={this.handleItemClick}
+          > Photography
+          </Menu.Item>
+          <Menu.Item as={Link} to='/about' name='about'
+            active={activeItem === 'about'}
+            onClick={this.handleItemClick}
+          > About
+          </Menu.Item>
+        {/* </Menu.Menu> */}
       </Menu>
     )
   }

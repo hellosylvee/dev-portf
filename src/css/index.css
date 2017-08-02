@@ -5,6 +5,11 @@
   box-shadow: 3px 4px 11px -3px rgba(173,171,173,1);
 }
 
+h1.ui.header, h2.ui.header, h3.ui.header {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
 .intro-background {
   background: #ec008c;
   background: -webkit-linear-gradient(to right, #fc6767, #ec008c, #9651af);
@@ -15,17 +20,18 @@ Icon {
   background-color: #000;
 }
 
-.centered.two.column.row, .centered.three.column.row > .ui.header {
+.centered.one.column.row, .centered.three.column.row > .ui.header {
   margin-top: 75px;
 }
 
 h1.ui.header.subnav.animated.fadeInDown {
   margin-top: 110px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .profile-img {
   border: solid #6435C9 2px;
-  margin-top: 10px;
+  margin-top: 100px;
 }
 
 .social-btns {
@@ -53,6 +59,7 @@ h1.ui.header.subnav.animated.fadeInDown {
 
 .small-text {
   margin: 10px 0px 25px 0px;
+  font-family: 'Raleway', serif;
 }
 
 h2.header.process-title {

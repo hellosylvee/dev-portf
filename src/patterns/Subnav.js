@@ -10,6 +10,7 @@ export default class Subnav extends Component {
       <Grid stackable>
         <Grid.Row centered columns={10}>
           <Header as='h1' className='subnav animated fadeInDown'>Work</Header>
+          <div className='small-text'>Select a project to view</div>
           <Grid.Column>
               <a><Link to='/work/allstate'>
                 <Image className='animated fadeIn' src='assets/images/work/thumbnail-nexion.png' name='nexion' size='tiny' shape='circular' centered bordered />
