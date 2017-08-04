@@ -29,7 +29,7 @@ const kafsc = () => {
           <Button color='violet'
             fluid primary
             as='a'
-            href='http://www.sethmoulton.com/'
+            href='https://advocacyforkafsc.herokuapp.com/'
             target='_blank'>
             View website
           </Button>

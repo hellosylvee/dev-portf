@@ -29,7 +29,7 @@ const moultoncampaign = () => {
           <Button color='violet'
             fluid primary
             as='a'
-            href='http://www.sethmoulton.com/'
+            href='https://www.wanderant.com/#/start'
             target='_blank'>
             View website
           </Button>
