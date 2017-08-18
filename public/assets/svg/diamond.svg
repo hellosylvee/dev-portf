@@ -3,12 +3,16 @@
     <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
     <title>Artboard</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard" stroke-width="9" stroke="#000000">
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="101.999998%" y2="100.999999%" id="linearGradient-1">
+            <stop stop-color="#3023AE" offset="0%"></stop>
+            <stop stop-color="#C86DD7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.9">
+        <g id="Artboard" stroke-width="9" stroke="url(#linearGradient-1)">
             <polygon id="Path-2" points="47.8644314 5 189.709276 5 237 65.0688481 119.522206 189 6 65.0688481"></polygon>
-            <path d="M6,63.5 L235,63.5" id="Path-3"></path>
-            <polyline id="Path-4" points="95.8498528 6 69 61.2586262 120.324828 178 169 61.2586262 141.082434 6"></polyline>
+            <path d="M168.065462,63.5 L169,61.2586262 L141.082434,6 L95.8498528,6 L69,61.2586262 L69.9854101,63.5 L6,63.5 L69.9854101,63.5 L120.324828,178 L168.065462,63.5 L235,63.5 L168.065462,63.5 Z" id="Path-4"></path>
         </g>
     </g>
 </svg>

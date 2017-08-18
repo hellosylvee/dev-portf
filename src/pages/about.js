@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import { Grid, Image, Button, Header, Icon } from 'semantic-ui-react'
 
 class about extends Component {
+
   render() {
     return (
       <Grid stackable divided='vertically'>

@@ -10,12 +10,6 @@ h1.ui.header, h2.ui.header, h3.ui.header {
   font-weight: bold;
 }
 
-/*.intro-background {
-  background: #ec008c;
-  background: -webkit-linear-gradient(to right, #fc6767, #ec008c, #9651af);
-  background: linear-gradient(to right, #fc6767, #ec008c, #9651af);
-}*/
-
 Icon {
   background-color: #000;
 }
@@ -114,8 +108,9 @@ h2.header.process-title {
 }
 
 .ui.header.intro-title {
-  font-size: 4.8em;
+  font-size: 5em;
   font-family: 'Playfair Display', serif;
+  text-shadow: 2px 2px #FAD961;
 }
 
 .column-margin {
@@ -151,7 +146,7 @@ p.current-year {
   color: #FFFFFF;
 }
 
-body {
-  max-width: 1440px;
+.ui.stackable.vertically.divided.grid, .centered.three.column.row.row-section {
   margin: 0 auto;
+  background-image: url('../backgrounds/about.jpg');
 }

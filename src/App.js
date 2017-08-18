@@ -6,11 +6,11 @@ import home from './pages/home'
 import photography from './pages/photography'
 import about from './pages/about'
 import work from './pages/work'
-
 import './css/App.css';
 
 class App extends Component {
   render() {
+
     return (
       <div>
         <NavBar />
