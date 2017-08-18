@@ -30,6 +30,9 @@ class about extends Component {
             </div>
             <div className='body-text'>
               I am a product designer and developer in NYC, disrupting traditional business practices and designing state-of-the-art applications that involved user research, interaction design, and HTML/CSS prototyping. I am driven to design and build dynamic UIs through photoshop/sketch and code in JavaScript and frameworks, Ruby on Rails, React/Redux, and HTML5/CSS3.
+            </div><br/>
+            <div className='body-text'>
+              I am Design Mentor at DesignLab and Springboard, and now currently looking for full-time positions as a full-stack Product Designer in SF and NYC.
             </div>
             <div className='contact-btns'>
               <Icon className='animated infinite tada' color='violet' name='send' />
