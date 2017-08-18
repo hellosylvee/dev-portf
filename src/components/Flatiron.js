@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Grid, Card, Image, Header, Modal, Icon } from 'semantic-ui-react'
 
-class Projects extends Component {
+class Flatiron
+ extends Component {
   render() {
     return (
       <Grid.Row className='row-section' centered columns={4}>
@@ -88,4 +89,5 @@ class Projects extends Component {
   }
 }
 
-export default Projects;
+export default Flatiron
+;

@@ -52,7 +52,6 @@ class photography extends Component {
             <Image centered bordered src='assets/images/fire.jpg' name='woman breathing fire' size='medium' />
           </Grid.Column>
         </Grid.Row>
-        <Footer/>
       </Grid>
     );
   }

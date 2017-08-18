@@ -9,58 +9,44 @@ export default class Subnav extends Component {
     return (
       <Grid stackable>
         <Grid.Row centered columns={10}>
-          <Header as='h1' className='subnav animated fadeInDown'>Work</Header>
-          <div className='small-text'>Select a project to view</div>
           <Grid.Column>
-              <a><Link to='/work/allstate'>
-                <Image className='animated fadeIn' src='assets/images/work/thumbnail-nexion.png' name='nexion' size='tiny' shape='circular' centered bordered />
-              </Link></a>
-              <Header as='h3'>Allstate</Header>
-          </Grid.Column>
-          <Grid.Column>
-            <a><Link to='/work/express-scripts'>
-              <Image className='animated fadeIn' src='assets/images/work/thumbnail-rx.png' name='rx emporium' size='tiny' shape='circular' centered bordered />
-            </Link></a>
-            <Header as='h3'>Express Scripts</Header>
-          </Grid.Column>
-          <Grid.Column>
-            <a><Link to='/work/kafsc'>
+            <a><Link to='/kafsc'>
               <Image className='animated fadeIn' src='assets/images/work/thumbnail-kafsc.png' name='kafsc' size='tiny' shape='circular' bordered centered />
             </Link></a>
             <Header as='h3'>KAFSC</Header>
           </Grid.Column>
           <Grid.Column>
-            <a><Link to='/work/nqdesktop'>
+            <a><Link to='/nqdesktop'>
               <Image className='animated fadeIn' src='assets/images/work/thumbnail-nasdaq.png' name='nasdaq desktop' size='tiny' shape='circular' centered />
             </Link></a>
             <Header as='h3'>IR Insight Messaging</Header>
           </Grid.Column>
           <Grid.Column>
-            <a><Link to='/work/nqmobile'>
+            <a><Link to='/nqmobile'>
               <Image className='animated fadeIn' src='assets/images/work/thumbnail-nasdaq.png' name='nasdaq mobile' size='tiny' shape='circular' centered />
             </Link></a>
             <Header as='h3'>IR Mobile</Header>
           </Grid.Column>
           <Grid.Column>
-            <a><Link to='/work/nqwebhost'>
+            <a><Link to='/nqwebhost'>
               <Image className='animated fadeIn' src='assets/images/work/thumbnail-nasdaq.png' name='nasdaq webhost' size='tiny' shape='circular' centered />
             </Link></a>
             <Header as='h3'>Nasdaq Webhosting</Header>
           </Grid.Column>
           <Grid.Column>
-            <a><Link to='/work/uxdc'>
+            <a><Link to='/uxdc'>
               <Image className='animated fadeIn' src='assets/images/work/thumbnail-uxdc.png' name='uxdc' size='tiny' shape='circular' centered bordered/>
             </Link></a>
             <Header as='h3'>UXDC</Header>
           </Grid.Column>
           <Grid.Column>
-            <a><Link to='/work/wanderant'>
+            <a><Link to='/wanderant'>
               <Image className='animated fadeIn' src='assets/images/work/thumbnail-wanderant.png' name='wanderant' size='tiny' shape='circular' centered />
             </Link></a>
             <Header as='h3'>Wanderant</Header>
           </Grid.Column>
           <Grid.Column>
-            <a><Link to='/work/moultoncampaign'>
+            <a><Link to='/moultoncampaign'>
               <Image className='animated fadeIn' src='assets/images/work/thumbnail-sethmoulton.png' name='sethmoulton' size='tiny' shape='circular' centered />
             </Link></a>
             <Header as='h3'>Seth Moulton</Header>
