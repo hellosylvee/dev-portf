@@ -148,5 +148,8 @@ p.current-year {
 
 .ui.stackable.vertically.divided.grid, .centered.three.column.row.row-section {
   margin: 0 auto;
+  background-size: cover;
+  background-position: center;
   background-image: url('../backgrounds/about.jpg');
+  background-repeat: no-repeat;
 }
