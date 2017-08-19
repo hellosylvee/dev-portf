@@ -17,10 +17,10 @@ const kafsc = () => {
             <Header as='h2'>An Advocacy Campaign</Header>
             <div className='body-text'>
                Advocacy for KAFSC is an advocacy fund project for KAFSC, to raise awareness on domestic violence and solicit discretionary funds from council members of New York City. KAFSC is a community-based, nonprofit organization that offers assistance to Korean American families and domestic violence victims in greater New York area. I promote domestic violence awareness, generate funds for the nonprofit organization, and work with executive board members to organize events framing from races to spring formal for young professionals.
-            </div><br/>
+            </div>
             <div className='body-text'>
               The project was deemed a success as funding increased 105% for fiscal year 2018, and obtained more funding from new councilmembers.
-            </div><br/>
+            </div>
           </div>
         </Grid.Column>
       </Grid.Row>

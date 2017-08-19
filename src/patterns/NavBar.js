@@ -14,15 +14,10 @@ export default class NavBar extends Component {
     return (
       <Menu secondary color='violet' fixed='top'>
         <Menu.Item as={Link} to='/'
-          name='home'
-          active={activeItem === 'home'}
+          name='Home'
+          active={activeItem === 'Home'}
           onClick={this.handleItemClick}
         > <Icon name='diamond' /> Sylvee Lee
-        </Menu.Item>
-        <Menu.Item as={Link} to='/projects' name='projects'
-          active={activeItem === 'projects'}
-          onClick={this.handleItemClick}
-        > Projects
         </Menu.Item>
         <Menu.Item as={Link} to='/photography' name='photography'
         active={activeItem === 'photography'}

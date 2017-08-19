@@ -17,10 +17,10 @@ const moultoncampaign = () => {
             <Header as='h2'>A Campaign Website</Header>
             <div className='body-text'>
                Seth Wilbur Moulton was an American former Marine Corps officer, a member of the Democratic Party, and is now a U.S. Representative for Massachusetts's 6th congressional district. This site was designed and built for his run in 2014 congressional campaign.
-            </div><br/>
+            </div>
             <div className='body-text'>
               Main tasks included interaction and graphic design.
-            </div><br/>
+            </div>
           </div>
         </Grid.Column>
       </Grid.Row>

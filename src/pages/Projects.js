@@ -18,17 +18,17 @@ class Projects extends Component {
     return (
       <Grid.Row centered columns={10}>
         <Subnav/>
-        {/* <Switch>
-          <Route path='/home/kafsc' component={kafsc} />
-          <Route path='/home/allstate' component={nexion} />
-          <Route path='/home/express-scripts' component={rxemporium} />
-          <Route path='/home/nqdesktop' component={nqdesktop} />
-          <Route path='/home/nqmobile' component={nqmobile} />
-          <Route path='/home/nqwebhost' component={nqwebhost} />
-          <Route path='/home/uxdc' component={uxdc} />
-          <Route path='/home/wanderant' component={wanderant} />
-          <Route path='/home/moultoncampaign' component={moultoncampaign} />
-        </Switch> */}
+        <Switch>
+          <Route path='/kafsc' component={kafsc} />
+          <Route path='/allstate' component={nexion} />
+          <Route path='/express-scripts' component={rxemporium} />
+          <Route path='/nqdesktop' component={nqdesktop} />
+          <Route path='/nqmobile' component={nqmobile} />
+          <Route path='/nqwebhost' component={nqwebhost} />
+          <Route path='/uxdc' component={uxdc} />
+          <Route path='/wanderant' component={wanderant} />
+          <Route path='/moultoncampaign' component={moultoncampaign} />
+        </Switch>
       </Grid.Row>
     );
   }

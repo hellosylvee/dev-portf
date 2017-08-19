@@ -17,10 +17,10 @@ const moultoncampaign = () => {
             <Header as='h2'>A Smart Travel Planner</Header>
             <div className='body-text'>
               Wanderant is a web and mobile app set out to reduce the hassles of travel planning by organizing the best travel tools and information into a single trip-planning workflow. It offers a simpler more fun process of planning, choices and logistics for the independent traveler.
-            </div><br/>
+            </div>
             <div className='body-text'>
               Main tasks included design strategy, user research, usability testing, and UX design.
-            </div><br/>
+            </div>
           </div>
         </Grid.Column>
       </Grid.Row>

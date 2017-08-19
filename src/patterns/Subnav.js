@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import { Grid, Image, Header } from 'semantic-ui-react'
 
@@ -8,7 +8,7 @@ export default class Subnav extends Component {
   render() {
     return (
       <Grid stackable>
-        <Grid.Row centered columns={10}>
+        <Grid.Row centered>
           <Grid.Column>
             <a><Link to='/kafsc'>
               <Image className='animated fadeIn' src='assets/images/work/thumbnail-kafsc.png' name='kafsc' size='tiny' shape='circular' bordered centered />

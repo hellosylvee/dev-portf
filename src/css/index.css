@@ -1,4 +1,4 @@
-.ui.violet.secondary.top.fixed.menu {
+/*.ui.violet.secondary.top.fixed.menu {
   background-color: #FFFFFF;
   -webkit-box-shadow: 3px 4px 11px -3px rgba(173,171,173,1);
   -moz-box-shadow: 3px 4px 11px -3px rgba(173,171,173,1);
@@ -92,7 +92,7 @@ h2.header.process-title {
 }
 
 .accent-color {
-  color: #6435C9; /*1678c2*/
+  color: #6435C9;
 }
 
 .ui.header.pull-quote {
@@ -149,11 +149,4 @@ p.current-year {
   background-position: center;
   background-image: url('../backgrounds/intro.png');
   background-repeat: no-repeat;
-}
-
-/*body {
-  margin: 0 auto;
-  background-size: cover;
-  background-position: center;
-  background-image: url('../backgrounds/about.jpg');
 }*/
