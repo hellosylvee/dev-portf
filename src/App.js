@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom'
 import NavBar from './components/NavBar'
 
-import Home from './components/Home'
-import Projects from './components/Projects'
-import About from './components/About'
-import Photography from './components/Photography'
+import Home from './pages/Home'
+import Projects from './pages/Projects'
+import About from './pages/About'
+import Photography from './pages/Photography'
 
 import './css/App.css';
 
