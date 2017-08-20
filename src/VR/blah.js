@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom'
 import { Grid } from 'semantic-ui-react'
 
-import Subnav from '../patterns/Subnav'
+import Subnav from '../patterns/ProjectsNavBar'
 import kafsc from '../projects/kafsc'
 import nexion from '../projects/nexion'
 import rxemporium from '../projects/rxemporium'
@@ -13,7 +13,7 @@ import uxdc from '../projects/uxdc'
 import wanderant from '../projects/wanderant'
 import moultoncampaign from '../projects/moultoncampaign'
 
-class Projects extends Component {
+class ProjectsNavBar extends Component {
   render() {
     return (
       <Grid.Row centered columns={10}>
@@ -34,4 +34,4 @@ class Projects extends Component {
   }
 }
 
-export default Projects;
+export default ProjectsNavBar;
