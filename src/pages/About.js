@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import SocialMedia from '../components/SocialMedia'
-import { Grid, Image, Button, Header, Icon } from 'semantic-ui-react'
+import { Grid, Image, Header, Icon } from 'semantic-ui-react'
 
 class About extends Component {
 

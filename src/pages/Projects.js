@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link, Route } from 'react-router-dom'
-import ProjectIndex from '../projects/ProjectIndex'
 
 import Kafsc from '../projects/Kafsc'
 import Uxdc from '../projects/Uxdc'

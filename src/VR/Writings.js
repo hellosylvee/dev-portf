@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Card, Header } from 'semantic-ui-react'
+import { Grid, Header } from 'semantic-ui-react'
 
 const Writings = () => {
   return (
