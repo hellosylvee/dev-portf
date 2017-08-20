@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Header, Grid, Image } from 'semantic-ui-react'
 
-const nqmobile = () => {
+const NqMobile = () => {
   return(
     <Grid stackable>
       <Grid.Row centered columns="1">
@@ -50,4 +50,4 @@ const nqmobile = () => {
     </Grid>
   )
 }
-export default nqmobile
+export default NqMobile

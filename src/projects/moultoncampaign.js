@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Grid, Header, Image, Button } from 'semantic-ui-react'
 
-const moultoncampaign = () => {
+const MoultonCampaign = () => {
   return(
     <Grid stackable>
       <Grid.Row centered columns="1">
@@ -39,4 +39,4 @@ const moultoncampaign = () => {
     </Grid>
   )
 }
-export default moultoncampaign
+export default MoultonCampaign

@@ -5,6 +5,13 @@ const Aframe = () => {
   return (
     <Grid.Row>
       <Grid.Column>
+        {/* <Card fluid 
+          color='violet'
+          image='assets/images/VR/tv.png'
+          as='a' size='massive'
+          href='https://nyan-cat-tv.glitch.me/'
+          target='_blank'>
+        </Card> */}
         <Image bordered centered
           src='assets/images/VR/tv.png'
           as='a' size='large'

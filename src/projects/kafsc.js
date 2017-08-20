@@ -1,8 +1,7 @@
 import React from 'react'
-
 import { Grid, Header, Image, Button } from 'semantic-ui-react'
 
-const kafsc = () => {
+const Kafsc = () => {
   return(
     <Grid stackable>
       <Grid.Row centered columns="1">
@@ -39,4 +38,4 @@ const kafsc = () => {
     </Grid>
   )
 }
-export default kafsc
+export default Kafsc

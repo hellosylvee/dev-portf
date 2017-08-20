@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Header, Grid, Image } from 'semantic-ui-react'
 
-const nqwebhost = () => {
+const NqWebhost = () => {
   return(
     <Grid stackable>
       <Grid.Row centered columns="1">
@@ -86,4 +86,4 @@ const nqwebhost = () => {
     </Grid>
   )
 }
-export default nqwebhost
+export default NqWebhost

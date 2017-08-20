@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Header, Grid, Image } from 'semantic-ui-react'
 
-const nqdesktop = () => {
+const NqDesktop = () => {
   return(
     <Grid stackable>
       <Grid.Row centered columns="1">
@@ -58,4 +58,4 @@ const nqdesktop = () => {
     </Grid>
   )
 }
-export default nqdesktop
+export default NqDesktop

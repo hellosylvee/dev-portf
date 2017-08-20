@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+import SocialMedia from '../components/SocialMedia'
+import Footer from '../components/Footer'
+
 import { Grid, Image, Header} from 'semantic-ui-react'
 
 class Photography extends Component {
@@ -70,13 +73,13 @@ class Photography extends Component {
               src='assets/images/donuts.jpg'
               name='donuts'
               size='massive' />
-        
+
             <Image
               bordered centered
               src='assets/images/ramen.jpg'
               name='ramen'
               size='massive' />
-        
+
             <Image
               bordered centered
               src='assets/images/fire.jpg'
@@ -84,6 +87,8 @@ class Photography extends Component {
               size='massive' />
           </Grid.Column>
         </Grid.Row>
+        <SocialMedia/>
+        <Footer/>
       </Grid>
     );
   }

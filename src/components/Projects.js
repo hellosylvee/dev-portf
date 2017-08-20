@@ -2,6 +2,14 @@ import React from 'react'
 import { Link, Route } from 'react-router-dom'
 import ProjectIndex from '../projects/ProjectIndex'
 
+import Kafsc from '../projects/Kafsc'
+import Uxdc from '../projects/Uxdc'
+import NqDesktop from '../projects/NqDesktop'
+import NqMobile from '../projects/NqMobile'
+import NqWebhost from '../projects/NqWebhost'
+import Wanderant from '../projects/Wanderant'
+import MoultonCampaign from '../projects/MoultonCampaign'
+
 import { Grid, Image, Header } from 'semantic-ui-react'
 
 const Projects = ({ match }) => {
@@ -14,8 +22,7 @@ const Projects = ({ match }) => {
       <p> Select a project to view </p>
       <Grid.Row>
         <a>
-          <Link to='/kafsc'>
-          {/* <Link to={`${match.url}/kafsc`}> */}
+          <Link to={`${match.url}/kafsc`}>
             <Image className='animated fadeIn'
                    src='assets/images/work/thumbnail-kafsc.png'
                    name='kafsc'
@@ -23,11 +30,10 @@ const Projects = ({ match }) => {
                    shape='circular'
                    bordered centered />
           </Link>
-          <Header as='h3'>KAFSC</Header>
         </a>
 
         <a>
-          <Link to='/nqdesktop'>
+          <Link to={`${match.url}/nqdesktop`}>
             <Image className='animated fadeIn'
                    src='assets/images/work/thumbnail-nasdaq.png'
                    name='nasdaq desktop'
@@ -35,11 +41,10 @@ const Projects = ({ match }) => {
                    shape='circular'
                    bordered centered />
           </Link>
-          <Header as='h3'>IR Insight Messaging</Header>
         </a>
 
         <a>
-          <Link to='/nqmobile'>
+          <Link to={`${match.url}/nqmobile`}>
             <Image className='animated fadeIn'
                    src='assets/images/work/thumbnail-nasdaq.png'
                    name='nasdaq mobile'
@@ -47,11 +52,10 @@ const Projects = ({ match }) => {
                    shape='circular'
                    bordered centered />
           </Link>
-          <Header as='h3'>IR Mobile</Header>
         </a>
 
         <a>
-          <Link to='/nqwebhost'>
+          <Link to={`${match.url}/nqwebhost`}>
             <Image className='animated fadeIn'
                    src='assets/images/work/thumbnail-nasdaq.png'
                    name='nasdaq webhost'
@@ -59,11 +63,10 @@ const Projects = ({ match }) => {
                    shape='circular'
                    bordered centered />
           </Link>
-          <Header as='h3'>Nasdaq Webhosting</Header>
         </a>
 
         <a>
-          <Link to='/uxdc'>
+          <Link to={`${match.url}/uxdc`}>
             <Image className='animated fadeIn'
                    src='assets/images/work/thumbnail-uxdc.png'
                    name='uxdc'
@@ -71,11 +74,10 @@ const Projects = ({ match }) => {
                    shape='circular'
                    bordered centered />
           </Link>
-          <Header as='h3'>UXDC</Header>
         </a>
 
         <a>
-          <Link to='/wanderant'>
+          <Link to={`${match.url}/wanderant`}>
             <Image className='animated fadeIn'
                    src='assets/images/work/thumbnail-wanderant.png'
                    name='wanderant'
@@ -83,11 +85,10 @@ const Projects = ({ match }) => {
                    shape='circular'
                    bordered centered />
           </Link>
-          <Header as='h3'>Wanderant</Header>
         </a>
 
         <a>
-          <Link to='/moultoncampaign'>
+          <Link to={`${match.url}/moultoncampaign`}>
             <Image className='animated fadeIn'
                    src='assets/images/work/thumbnail-sethmoulton.png'
                    name='sethmoulton'
@@ -95,12 +96,17 @@ const Projects = ({ match }) => {
                    shape='circular'
                    bordered centered />
           </Link>
-          <Header as='h3'>Seth Moulton</Header>
         </a>
 
-        {/* <Route path={`${match.url}/:projectId`} component={ProjectIndex}/>
-        <Route exact path={match.url} render={() => (
-          <h3>Please select a topic.</h3>
+        <Route path={`${match.url}/kafsc`} component={Kafsc}/>
+        <Route path={`${match.url}/nqdesktop`} component={NqDesktop}/>
+        <Route path={`${match.url}/nqmobile`} component={NqMobile}/>
+        <Route path={`${match.url}/nqwebhost`} component={NqWebhost}/>
+        <Route path={`${match.url}/uxdc`} component={Uxdc}/>
+        <Route path={`${match.url}/wanderant`} component={Wanderant}/>
+        <Route path={`${match.url}/moultoncampaign`} component={MoultonCampaign}/>
+        {/* <Route exact path={match.url} render={() => (
+          <p>Please select a project to view.</p>
         )}/> */}
       </Grid.Row>
     </Grid>

@@ -7,14 +7,6 @@ class SocialMedia extends Component {
       <Grid.Row>
         <a target='_blank'
            rel='noopener noreferrer'
-           href='https://www.twitter.com/hellosylvee'>
-          <Icon link
-                name='twitter'
-                color='violet'
-                size='big'/></a>
-
-        <a target='_blank'
-           rel='noopener noreferrer'
            href='https://www.github.com/hellosylvee'>
           <Icon link
                 name='github'

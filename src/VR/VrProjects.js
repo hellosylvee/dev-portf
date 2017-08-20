@@ -9,21 +9,21 @@ const VrProjects = () => {
           bordered centered
           src='assets/images/dino.jpg'
           name='dinosaur skeleton'
-          size='medium' />
+          size='large' />
       </Grid.Column>
       <Grid.Column>
         <Image
           bordered centered
           src='assets/images/dino.jpg'
           name='dinosaur skeleton'
-          size='medium' />
+          size='large' />
       </Grid.Column>
       <Grid.Column>
         <Image
           bordered centered
           src='assets/images/dino.jpg'
           name='dinosaur skeleton'
-          size='medium' />
+          size='large' />
       </Grid.Column>
     </Grid.Row>
   );
