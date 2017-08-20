@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Image } from 'semantic-ui-react'
 
-const Aframe = () => {
+const VrProjects = () => {
   return (
     <Grid.Row>
       <Grid.Column>
@@ -29,4 +29,4 @@ const Aframe = () => {
   );
 }
 
-export default Aframe;
+export default VrProjects;

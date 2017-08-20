@@ -6,10 +6,9 @@ class Photography extends Component {
     return (
       <Grid stackable centered columns={1}>
         <Grid.Row>
-          <Header> Photography </Header>
-          {/* <p> Taken with Note 4 and Pixel </p> */}
+          <Header as='h2'> Photography </Header>
         </Grid.Row>
-
+        <p> Taken with Pixel </p>
         <Grid.Row>
           <Grid.Column>
             <Image

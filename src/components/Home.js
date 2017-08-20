@@ -4,7 +4,7 @@ import { Grid, Header } from 'semantic-ui-react'
 import Intro from '../components/Intro'
 import SocialMedia from '../components/SocialMedia'
 import Footer from '../components/Footer'
-import Projects from '../VR/Projects'
+import VrProjects from '../VR/VrProjects'
 import Aframe from '../VR/Aframe'
 import Writings from '../VR/Writings'
 
@@ -15,7 +15,7 @@ class Home extends Component {
         <Intro/>
 
         <Header>Design</Header>
-        <Projects/>
+        <VrProjects/>
 
         <Header>Development</Header>
         <Aframe/>

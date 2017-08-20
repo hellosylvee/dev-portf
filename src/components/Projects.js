@@ -7,8 +7,12 @@ import { Grid, Image, Header } from 'semantic-ui-react'
 const Projects = ({ match }) => {
 
   return (
-    <Grid stackable>
-      <Grid.Row centered>
+    <Grid stackable centered>
+      <Grid.Row>
+        <Header as='h2'> Projects </Header>
+      </Grid.Row>
+      <p> Select a project to view </p>
+      <Grid.Row>
         <a>
           <Link to='/kafsc'>
           {/* <Link to={`${match.url}/kafsc`}> */}
@@ -19,8 +23,8 @@ const Projects = ({ match }) => {
                    shape='circular'
                    bordered centered />
           </Link>
+          <Header as='h3'>KAFSC</Header>
         </a>
-        <Header as='h3'>KAFSC</Header>
 
         <a>
           <Link to='/nqdesktop'>
@@ -31,8 +35,8 @@ const Projects = ({ match }) => {
                    shape='circular'
                    bordered centered />
           </Link>
+          <Header as='h3'>IR Insight Messaging</Header>
         </a>
-        <Header as='h3'>IR Insight Messaging</Header>
 
         <a>
           <Link to='/nqmobile'>
@@ -43,8 +47,8 @@ const Projects = ({ match }) => {
                    shape='circular'
                    bordered centered />
           </Link>
+          <Header as='h3'>IR Mobile</Header>
         </a>
-        <Header as='h3'>IR Mobile</Header>
 
         <a>
           <Link to='/nqwebhost'>
@@ -55,8 +59,8 @@ const Projects = ({ match }) => {
                    shape='circular'
                    bordered centered />
           </Link>
+          <Header as='h3'>Nasdaq Webhosting</Header>
         </a>
-        <Header as='h3'>Nasdaq Webhosting</Header>
 
         <a>
           <Link to='/uxdc'>
@@ -67,8 +71,8 @@ const Projects = ({ match }) => {
                    shape='circular'
                    bordered centered />
           </Link>
+          <Header as='h3'>UXDC</Header>
         </a>
-        <Header as='h3'>UXDC</Header>
 
         <a>
           <Link to='/wanderant'>
@@ -79,8 +83,8 @@ const Projects = ({ match }) => {
                    shape='circular'
                    bordered centered />
           </Link>
+          <Header as='h3'>Wanderant</Header>
         </a>
-        <Header as='h3'>Wanderant</Header>
 
         <a>
           <Link to='/moultoncampaign'>
@@ -91,8 +95,8 @@ const Projects = ({ match }) => {
                    shape='circular'
                    bordered centered />
           </Link>
+          <Header as='h3'>Seth Moulton</Header>
         </a>
-        <Header as='h3'>Seth Moulton</Header>
 
         {/* <Route path={`${match.url}/:projectId`} component={ProjectIndex}/>
         <Route exact path={match.url} render={() => (
