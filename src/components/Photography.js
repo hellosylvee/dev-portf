@@ -4,7 +4,7 @@ import { Grid, Image, Header} from 'semantic-ui-react'
 class Photography extends Component {
   render() {
     return (
-      <Grid stackable centered columns={3}>
+      <Grid stackable centered columns={1}>
         <Grid.Row>
           <Header> Photography </Header>
           {/* <p> Taken with Note 4 and Pixel </p> */}
@@ -16,21 +16,21 @@ class Photography extends Component {
               bordered centered
               src='assets/images/dino.jpg'
               name='dinosaur skeleton'
-              size='medium' />
+              size='massive' />
           </Grid.Column>
           <Grid.Column>
             <Image
               bordered centered
-              src='assets/images/wheel.jpg'
+              src='assets/images/chihuly.jpg'
               name='ferris wheel'
-              size='medium' />
+              size='massive' />
           </Grid.Column>
           <Grid.Column>
             <Image
               bordered centered
               src='assets/images/bird.jpg'
               name='bird'
-              size='medium' />
+              size='massive' />
           </Grid.Column>
         </Grid.Row>
 
@@ -40,21 +40,21 @@ class Photography extends Component {
               bordered centered
               src='assets/images/postal.jpg'
               name='post office'
-              size='medium' />
+              size='massive' />
           </Grid.Column>
           <Grid.Column>
             <Image
               bordered centered
               src='assets/images/bridge.jpg'
               name='brooklyn bridge'
-              size='medium' />
+              size='massive' />
           </Grid.Column>
           <Grid.Column>
             <Image
               bordered centered
               src='assets/images/love.jpg'
               name='love sign on water'
-              size='medium' />
+              size='massive' />
           </Grid.Column>
         </Grid.Row>
 
@@ -62,23 +62,23 @@ class Photography extends Component {
           <Grid.Column>
             <Image
               bordered centered
-              src='assets/images/lobsteroll.jpg'
+              src='assets/images/whale.jpg'
               name='lobster roll'
-              size='medium' />
+              size='massive' />
           </Grid.Column>
           <Grid.Column>
             <Image
               bordered centered
-              src='assets/images/sign.jpg'
+              src='assets/images/starbucks.jpg'
               name='inspirational message'
-              size='medium' />
+              size='massive' />
           </Grid.Column>
           <Grid.Column>
             <Image
               bordered centered
               src='assets/images/spice.jpg'
               name='hollywood sign'
-              size='medium' />
+              size='massive' />
           </Grid.Column>
         </Grid.Row>
 
@@ -88,21 +88,21 @@ class Photography extends Component {
               bordered centered
               src='assets/images/donuts.jpg'
               name='donuts'
-              size='medium' />
+              size='massive' />
           </Grid.Column>
           <Grid.Column>
             <Image
               bordered centered
               src='assets/images/ramen.jpg'
               name='ramen'
-              size='medium' />
+              size='massive' />
           </Grid.Column>
           <Grid.Column>
             <Image
               bordered centered
               src='assets/images/fire.jpg'
               name='woman breathing fire'
-              size='medium' />
+              size='massive' />
           </Grid.Column>
         </Grid.Row>
       </Grid>

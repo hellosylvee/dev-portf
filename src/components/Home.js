@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Grid, Header } from 'semantic-ui-react'
 
 import Intro from '../components/Intro'
+import SocialMedia from '../components/SocialMedia'
 import Footer from '../components/Footer'
 import Projects from '../VR/Projects'
 import Aframe from '../VR/Aframe'
@@ -22,6 +23,7 @@ class Home extends Component {
         <Header>Medium Posts</Header>
         <Writings/>
 
+        <SocialMedia/>
         <Footer/>
       </Grid>
     );
