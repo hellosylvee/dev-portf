@@ -13,9 +13,13 @@ import { Grid, Image, Header } from 'semantic-ui-react'
 
 const Projects = ({ match }) => {
 
+  const rowStyle = {
+    marginTop: '50px'
+  }
+
   return (
     <Grid stackable centered>
-      <Grid.Row>
+      <Grid.Row style={rowStyle}>
         <Header as='h2'> Projects </Header>
       </Grid.Row>
       <p> Select a project to view </p>
@@ -104,9 +108,6 @@ const Projects = ({ match }) => {
         <Route path={`${match.url}/uxdc`} component={Uxdc}/>
         <Route path={`${match.url}/wanderant`} component={Wanderant}/>
         <Route path={`${match.url}/moultoncampaign`} component={MoultonCampaign}/>
-        {/* <Route exact path={match.url} render={() => (
-          <p>Please select a project to view.</p>
-        )}/> */}
       </Grid.Row>
     </Grid>
   )

@@ -10,17 +10,21 @@ export default class NavBar extends Component {
   render() {
     const { activeItem } = this.state
 
+    const navStyle = {
+      backgroundColor: 'rgba(255, 255, 255, 0.75)'
+    }
+
     return (
-      <Menu fluid secondary inverted
+      <Menu secondary
+            style={navStyle}
             color='violet'
-            size='massive'
             fixed='top'>
         <Menu.Item
           as={Link} to='/'
           name='home'
           active={activeItem === 'home'}
           onClick={this.handleItemClick} >
-          <Icon name='diamond' />
+          <Icon name='diamond' size='big'/>
         </Menu.Item>
 
         <Menu.Item
