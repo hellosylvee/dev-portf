@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom'
 import NavBar from './components/NavBar'
-import Intro from './components/Intro'
 
 import Home from './pages/Home'
 import Projects from './pages/Projects'
@@ -15,7 +14,6 @@ class App extends Component {
     return (
       <div>
         <NavBar />
-        {/* <Intro/> */}
         <Switch>
           <Route exact path='/' component={Home} />
           <Route path='/projects' component={Projects} />
