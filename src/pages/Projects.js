@@ -14,17 +14,21 @@ import { Grid, Image, Header } from 'semantic-ui-react'
 const Projects = ({ match }) => {
 
   const rowStyle = {
-    marginTop: '50px'
+    marginTop: '48px'
+  }
+
+  const imageStyle = {
+    padding: '0px 5px'
   }
 
   return (
     <Grid stackable centered>
       <Grid.Row style={rowStyle}>
-        <Header as='h2'> Projects </Header>
+        <Header className='animated fadeIn' as='h2'> Projects </Header>
       </Grid.Row>
-      <p> Select a project to view </p>
+      <Header as='h4' className='animated fadeIn'> Select a project to view </Header>
       <Grid.Row>
-        <a>
+        <a style={imageStyle}>
           <Link to={`${match.url}/kafsc`}>
             <Image className='animated fadeIn'
                    src='assets/images/work/thumbnail-kafsc.png'
@@ -35,7 +39,7 @@ const Projects = ({ match }) => {
           </Link>
         </a>
 
-        <a>
+        <a style={imageStyle}>
           <Link to={`${match.url}/nqdesktop`}>
             <Image className='animated fadeIn'
                    src='assets/images/work/thumbnail-nasdaq.png'
@@ -46,7 +50,7 @@ const Projects = ({ match }) => {
           </Link>
         </a>
 
-        <a>
+        <a style={imageStyle}>
           <Link to={`${match.url}/nqmobile`}>
             <Image className='animated fadeIn'
                    src='assets/images/work/thumbnail-nasdaq.png'
@@ -57,7 +61,7 @@ const Projects = ({ match }) => {
           </Link>
         </a>
 
-        <a>
+        <a style={imageStyle}>
           <Link to={`${match.url}/nqwebhost`}>
             <Image className='animated fadeIn'
                    src='assets/images/work/thumbnail-nasdaq.png'
@@ -68,7 +72,7 @@ const Projects = ({ match }) => {
           </Link>
         </a>
 
-        <a>
+        <a style={imageStyle}>
           <Link to={`${match.url}/uxdc`}>
             <Image className='animated fadeIn'
                    src='assets/images/work/thumbnail-uxdc.png'
@@ -79,7 +83,7 @@ const Projects = ({ match }) => {
           </Link>
         </a>
 
-        <a>
+        <a style={imageStyle}>
           <Link to={`${match.url}/wanderant`}>
             <Image className='animated fadeIn'
                    src='assets/images/work/thumbnail-wanderant.png'
@@ -90,7 +94,7 @@ const Projects = ({ match }) => {
           </Link>
         </a>
 
-        <a>
+        <a style={imageStyle}>
           <Link to={`${match.url}/moultoncampaign`}>
             <Image className='animated fadeIn'
                    src='assets/images/work/thumbnail-sethmoulton.png'

@@ -8,38 +8,36 @@ const About = () => {
 
   const backgroundStyle = {
     backgroundImage: `url(${ imgUrl })`,
-    margin: '-25px'
+    margin: '-24px'
   }
 
   const rowStyle = {
-    marginTop: '50px'
+    marginTop: '48px'
   }
 
   return (
-    <Grid style={backgroundStyle} stackable centered columns={3}>
+    <Grid style={backgroundStyle} stackable centered>
       <Grid.Row style={rowStyle}>
-        <Header as='h2'> About </Header>
+        <Header className='animated fadeIn' as='h2'> About </Header>
       </Grid.Row>
-      <p> Hello and Welcome! </p>
+      <Header as='h4' className='animated fadeIn'> Hello and Welcome! </Header>
       <Grid.Row>
         <Grid.Column>
           <Image className='animated rollIn' centered shape='circular' src='/assets/images/profile.jpg' size='small' />
-          <Header as='h2'>Sylvee Lee</Header>
+          <Header className='animated fadeIn' as='h2'>Sylvee Lee</Header>
           <SocialMedia/>
         </Grid.Column>
       </Grid.Row>
       <Grid.Row>
         <Grid.Column>
-          <Header as='h3' textAlign='left'>
+          <p>
             I am a designer and developer in New York City, disrupting traditional business practices and designing state-of-the-art applications that involved user research, interaction design, and HTML/CSS/JS prototyping.
-          </Header>
-          <Header as='h3' textAlign='left'>
+            <br/><br/>
             I have a tremendous interest in VR/AR and enjoy working in a-frame, a webVR framework.
-          </Header>
-          <Header as='h3' textAlign='left'>
+            <br/><br/>
             I am a Design Mentor at DesignLab and Springboard, and now currently looking for positions as a full-stack Product Designer in SF and NYC.
-          </Header>
-          <Header as='h3' textAlign='center'>Let's connect!</Header>
+          </p>
+          <Header textAlign='center'>Let's connect!</Header>
         </Grid.Column>
       </Grid.Row>
 

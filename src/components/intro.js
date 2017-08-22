@@ -6,19 +6,27 @@ const Intro = () => {
   const backgroundStyle = {
     backgroundImage: `url(${ imgUrl })`,
     padding: '200px 0px 100px 0px',
-    margin: '-25px'
+    marginTop: '-25px',
+    textAlign: 'center'
   }
 
   const headerStyle = {
+    fontFamily: 'Playfair Display',
     fontSize: '8em'
+  }
+
+  const subHeaderStyle = {
+    fontFamily: 'Raleway'
   }
 
   return(
     <Grid.Row style={backgroundStyle}>
       <Grid.Column>
         <Image centered className='animated rollIn' src='/assets/svg/diamond.svg' size='small'/>
-        <Header as='h1' style={headerStyle} className='animated fadeIn'>Sylvee Lee</Header>
-        <Header as='h2'>Product Designer & Developer</Header>
+        <Header style={headerStyle} as='h2'
+                className='animated fadeIn'>Sylvee<br/>Lee</Header>
+        <Header as='h2'
+                style={subHeaderStyle}>Product Designer & Developer</Header>
       </Grid.Column>
     </Grid.Row>
   )

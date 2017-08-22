@@ -7,19 +7,19 @@ import imgUrl from '../backgrounds/intro.png'
 const Photography = () => {
   const backgroundStyle = {
     backgroundImage: `url(${ imgUrl })`,
-    margin: '-25px'
+    margin: '-24px'
   }
 
   const rowStyle = {
-    marginTop: '50px'
+    marginTop: '48px'
   }
 
   return (
     <Grid stackable centered columns={1} style={backgroundStyle}>
       <Grid.Row style={rowStyle}>
-        <Header as='h2'> Photography </Header>
+        <Header className='animated fadeIn' as='h2'> Photography </Header>
       </Grid.Row>
-      <p> Taken with Pixel </p>
+      <Header as='h4' className='animated fadeIn'> Taken with Pixel </Header>
       <Grid.Row>
         <Grid.Column>
           <Image

@@ -1,9 +1,51 @@
+h2.ui.header.animated.fadeIn, h2.ui.header {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 2em;
+}
+
+h3.ui.header.animated.fadeIn, h3.ui.header {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+}
+
+h4.ui.header.animated.fadeIn {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  margin-top: 8px;
+}
+
+h2.ui.header {
+  margin-top: 36px;
+}
+
+h3.ui.header {
+  margin-top: 96px;
+}
+
+h6.ui.header {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.25em;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  text-align: left;
+  width: 50%
+}
+
+img.ui {
+  margin-bottom: 8px;
+}
+
 .project-board {
   background: #C33764;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  padding: 100px 50px;
+  padding: 96px 48px;
+  margin: 0 auto;
 }
 
 .project-title a {
